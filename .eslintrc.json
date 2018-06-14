@@ -1,0 +1,17 @@
+{
+	"extends": "wikimedia",
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"no-console": 0,
+		"prefer-const": "error",
+		"one-var": ["error", "never"],
+		"no-unused-vars": ["error", {
+			"args": "none"
+		}]
+	}
+}
