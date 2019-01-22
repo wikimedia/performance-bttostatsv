@@ -1,2646 +1,1423 @@
-{
-	"info": {
-		"browsertime": { "version": "2.1.6" },
-		"url": "https://en.wikipedia.org/wiki/Barack_Obama",
-		"timestamp": "2018-01-25T10:58:13+00:00",
-		"connectivity": { "engine": "external", "profile": "native" }
-	},
-	"browserScripts": [
-		{
-			"browser": {
-				"userAgent":
-					"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-				"windowSize": "1199x893"
-			},
-			"pageinfo": {
-				"documentHeight": 41466,
-				"documentTitle": "Barack Obama - Wikipedia",
-				"documentWidth": 1184,
-				"responsive": true
-			},
-			"timings": {
-				"firstPaint": 736.84,
-				"fullyLoaded": 2546.7700000000004,
-				"navigationTiming": {
-					"connectEnd": 70,
-					"connectStart": 8,
-					"domComplete": 1736,
-					"domContentLoadedEventEnd": 1728,
-					"domContentLoadedEventStart": 1728,
-					"domInteractive": 1727,
-					"domLoading": 108,
-					"domainLookupEnd": 8,
-					"domainLookupStart": 1,
-					"fetchStart": 1,
-					"loadEventEnd": 1737,
-					"loadEventStart": 1736,
-					"navigationStart": 0,
-					"requestStart": 73,
-					"responseEnd": 857,
-					"responseStart": 101,
-					"secureConnectionStart": 37
-				},
-				"pageTimings": {
-					"backEndTime": 101,
-					"domContentLoadedTime": 1728,
-					"domInteractiveTime": 1727,
-					"domainLookupTime": 7,
-					"frontEndTime": 879,
-					"pageDownloadTime": 756,
-					"pageLoadTime": 1736,
-					"redirectionTime": 1,
-					"serverConnectionTime": 62,
-					"serverResponseTime": 784
-				},
-				"paintTiming": {
-					"first-contentful-paint": 736.84,
-					"first-paint": 736.84
-				},
-				"resourceTimings": [
-					{
-						"duration": 86.45000000000002,
-						"name":
-							"https://en.wikipedia.org/static/images/project-logos/enwiki.png",
-						"startTime": 117.555
-					},
-					{
-						"duration": 146.145,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.cite.styles%7Cext.math.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector",
-						"startTime": 123.01500000000001
-					},
-					{
-						"duration": 149.10500000000002,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector",
-						"startTime": 123.18
-					},
-					{
-						"duration": 131.35000000000002,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.charinsert-styles&only=styles&skin=vector",
-						"startTime": 123.28000000000002
-					},
-					{
-						"duration": 137.39,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector",
-						"startTime": 123.42500000000001
-					},
-					{
-						"duration": 597.6850000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Cscr-featured.svg/20px-Cscr-featured.svg.png",
-						"startTime": 123.525
-					},
-					{
-						"duration": 595.825,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png",
-						"startTime": 123.605
-					},
-					{
-						"duration": 596.74,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png",
-						"startTime": 123.69500000000001
-					},
-					{
-						"duration": 594.4449999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
-						"startTime": 123.805
-					},
-					{
-						"duration": 598.3900000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Barack_Obama_signature.svg/128px-Barack_Obama_signature.svg.png",
-						"startTime": 123.93
-					},
-					{
-						"duration": 597.815,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Barack_Obama_Hope_poster.jpg/75px-Barack_Obama_Hope_poster.jpg",
-						"startTime": 124.01500000000001
-					},
-					{
-						"duration": 598.6550000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/60px-Seal_of_the_President_of_the_United_States.svg.png",
-						"startTime": 124.11000000000001
-					},
-					{
-						"duration": 599.005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Barack_Obama_and_Bill_Clinton.jpg/180px-Barack_Obama_and_Bill_Clinton.jpg",
-						"startTime": 124.19000000000001
-					},
-					{
-						"duration": 599.3800000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/0/01/A_coloured_voting_box.svg/16px-A_coloured_voting_box.svg.png",
-						"startTime": 124.30000000000001
-					},
-					{
-						"duration": 597.49,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png",
-						"startTime": 126.62500000000001
-					},
-					{
-						"duration": 528.615,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Obama_family_portrait_in_the_Green_Room.jpg/220px-Obama_family_portrait_in_the_Green_Room.jpg",
-						"startTime": 195.95000000000002
-					},
-					{
-						"duration": 528.815,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BlackhawksWhiteHouse2010.jpg/220px-BlackhawksWhiteHouse2010.jpg",
-						"startTime": 196.20000000000002
-					},
-					{
-						"duration": 536.2750000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Barack_Obama_playing_basketball_with_members_of_Congress_and_Cabinet_secretaries_2.jpg/170px-Barack_Obama_playing_basketball_with_members_of_Congress_and_Cabinet_secretaries_2.jpg",
-						"startTime": 196.47
-					},
-					{
-						"duration": 529.1450000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/DIG13623-230.jpg/170px-DIG13623-230.jpg",
-						"startTime": 196.74000000000004
-					},
-					{
-						"duration": 534.6,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Obamas_at_church_on_Inauguration_Day_2013.jpg/220px-Obamas_at_church_on_Inauguration_Day_2013.jpg",
-						"startTime": 196.88000000000002
-					},
-					{
-						"duration": 537.195,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nuvola_apps_kaboodle.svg/16px-Nuvola_apps_kaboodle.svg.png",
-						"startTime": 198.07000000000002
-					},
-					{
-						"duration": 535.6700000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Obamamiltondavis1.jpg/220px-Obamamiltondavis1.jpg",
-						"startTime": 198.29500000000002
-					},
-					{
-						"duration": 538.2800000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Illinois_Senate_Election_Results_by_County%2C_2004.svg/110px-Illinois_Senate_Election_Results_by_County%2C_2004.svg.png",
-						"startTime": 198.45000000000002
-					},
-					{
-						"duration": 532.48,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BarackObamaportrait.jpg/220px-BarackObamaportrait.jpg",
-						"startTime": 205.8
-					},
-					{
-						"duration": 534.845,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lugar-Obama.jpg/220px-Lugar-Obama.jpg",
-						"startTime": 206.055
-					},
-					{
-						"duration": 533.31,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Barack_Obama_Iraq_2006.jpg/220px-Barack_Obama_Iraq_2006.jpg",
-						"startTime": 206.28000000000003
-					},
-					{
-						"duration": 536.23,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flickr_Obama_Springfield_01.jpg/220px-Flickr_Obama_Springfield_01.jpg",
-						"startTime": 206.405
-					},
-					{
-						"duration": 537.2350000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/President_George_W._Bush_and_Barack_Obama_meet_in_Oval_Office.jpg/220px-President_George_W._Bush_and_Barack_Obama_meet_in_Oval_Office.jpg",
-						"startTime": 206.53500000000003
-					},
-					{
-						"duration": 538.155,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/ElectoralCollege2008.svg/275px-ElectoralCollege2008.svg.png",
-						"startTime": 206.78500000000003
-					},
-					{
-						"duration": 539.21,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/P112912PS-0444_-_President_Barack_Obama_and_Mitt_Romney_in_the_Oval_Office_-_crop.jpg/220px-P112912PS-0444_-_President_Barack_Obama_and_Mitt_Romney_in_the_Oval_Office_-_crop.jpg",
-						"startTime": 206.90000000000003
-					},
-					{
-						"duration": 540.0200000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/ElectoralCollege2012.svg/275px-ElectoralCollege2012.svg.png",
-						"startTime": 207.25000000000003
-					},
-					{
-						"duration": 541.01,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/US_President_Barack_Obama_taking_his_Oath_of_Office_-_2009Jan20.jpg/220px-US_President_Barack_Obama_taking_his_Oath_of_Office_-_2009Jan20.jpg",
-						"startTime": 208.54500000000002
-					},
-					{
-						"duration": 542.605,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Barack_Obama_addresses_joint_session_of_Congress_2009-02-24.jpg/220px-Barack_Obama_addresses_joint_session_of_Congress_2009-02-24.jpg",
-						"startTime": 208.93
-					},
-					{
-						"duration": 541.7750000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Obama_cabinet_meeting_2009-11.jpg/220px-Obama_cabinet_meeting_2009-11.jpg",
-						"startTime": 209.155
-					},
-					{
-						"duration": 543.1400000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/White_House_rainbow_colors_to_celebrate_June_2015_SCOTUS_same-sex_marriage_ruling.jpeg/300px-White_House_rainbow_colors_to_celebrate_June_2015_SCOTUS_same-sex_marriage_ruling.jpeg",
-						"startTime": 209.28000000000003
-					},
-					{
-						"duration": 542.6200000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/20090124_WeeklyAddress.ogv/220px-seek%3D63-20090124_WeeklyAddress.ogv.jpg",
-						"startTime": 209.38000000000002
-					},
-					{
-						"duration": 550.6800000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/U.S._Total_Deficits_vs._National_Debt_Increases_2001-2010.png/220px-U.S._Total_Deficits_vs._National_Debt_Increases_2001-2010.png",
-						"startTime": 209.485
-					},
-					{
-						"duration": 544.1,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/US_Employment_Statistics.svg/300px-US_Employment_Statistics.svg.png",
-						"startTime": 215.155
-					},
-					{
-						"duration": 537.54,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Obama-venice-la.jpg/220px-Obama-venice-la.jpg",
-						"startTime": 215.345
-					},
-					{
-						"duration": 546.21,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Obama_signs_health_care-20100323.jpg/220px-Obama_signs_health_care-20100323.jpg",
-						"startTime": 215.49500000000003
-					},
-					{
-						"duration": 548.2950000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PPACA_Premium_Chart.jpg/300px-PPACA_Premium_Chart.jpg",
-						"startTime": 215.61
-					},
-					{
-						"duration": 547.14,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Percentage_of_Individuals_in_the_United_States_Without_Health_Insurance%2C_1963-2015.png/220px-Percentage_of_Individuals_in_the_United_States_Without_Health_Insurance%2C_1963-2015.png",
-						"startTime": 215.73000000000002
-					},
-					{
-						"duration": 551.09,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Barack_Obama_visiting_victims_of_2012_Aurora_shooting.jpg/220px-Barack_Obama_visiting_victims_of_2012_Aurora_shooting.jpg",
-						"startTime": 215.83
-					},
-					{
-						"duration": 549.9650000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Barack_Obama_at_Cairo_University_cropped.jpg/200px-Barack_Obama_at_Cairo_University_cropped.jpg",
-						"startTime": 215.925
-					},
-					{
-						"duration": 542.2349999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Barack_Obama_foreign_trips.svg/220px-Barack_Obama_foreign_trips.svg.png",
-						"startTime": 222.66500000000002
-					},
-					{
-						"duration": 545.1750000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/President_Barack_Obama_looks_at_Rembrandt%27s_%22The_Syndics%22.jpg/220px-President_Barack_Obama_looks_at_Rembrandt%27s_%22The_Syndics%22.jpg",
-						"startTime": 222.78
-					},
-					{
-						"duration": 546.3600000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Barack_Obama_and_Matteo_Renzi_October_2016%2C_1.jpg/220px-Barack_Obama_and_Matteo_Renzi_October_2016%2C_1.jpg",
-						"startTime": 222.87500000000003
-					},
-					{
-						"duration": 547.6650000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/David_Cameron_and_Barack_Obama_at_the_G20_Summit_in_Toronto.jpg/220px-David_Cameron_and_Barack_Obama_at_the_G20_Summit_in_Toronto.jpg",
-						"startTime": 222.955
-					},
-					{
-						"duration": 548.9050000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Barack_Obama_welcomes_Shimon_Peres_in_the_Oval_Office.jpg/220px-Barack_Obama_welcomes_Shimon_Peres_in_the_Oval_Office.jpg",
-						"startTime": 223.10500000000002
-					},
-					{
-						"duration": 549.9300000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_04.jpg/220px-Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_04.jpg",
-						"startTime": 223.21500000000003
-					},
-					{
-						"duration": 544.9749999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/President_Obama_on_Death_of_Osama_bin_Laden.ogv/220px--President_Obama_on_Death_of_Osama_bin_Laden.ogv.jpg",
-						"startTime": 229.29500000000002
-					},
-					{
-						"duration": 546.0100000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/11px-Wikisource-logo.svg.png",
-						"startTime": 229.51000000000002
-					},
-					{
-						"duration": 546.89,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Obama_and_Biden_await_updates_on_bin_Laden.jpg/220px-Obama_and_Biden_await_updates_on_bin_Laden.jpg",
-						"startTime": 229.69500000000002
-					},
-					{
-						"duration": 548.11,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Barack_Obama_talks_with_Benjamin_Netanyahu_%288637772147%29.jpg/220px-Barack_Obama_talks_with_Benjamin_Netanyahu_%288637772147%29.jpg",
-						"startTime": 229.81500000000003
-					},
-					{
-						"duration": 548.9950000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Handshake_between_the_President_and_Cuban_President_Ra%C3%BAl_Castro.jpg/220px-Handshake_between_the_President_and_Cuban_President_Ra%C3%BAl_Castro.jpg",
-						"startTime": 230.13500000000002
-					},
-					{
-						"duration": 565.325,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_01.jpg/220px-Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_01.jpg",
-						"startTime": 230.27000000000004
-					},
-					{
-						"duration": 554.84,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Official_portrait_of_Barack_Obama.jpg/220px-Official_portrait_of_Barack_Obama.jpg",
-						"startTime": 230.37000000000003
-					},
-					{
-						"duration": 549.9650000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gallup_Poll-Approval_Rating-Barack_Obama.svg/220px-Gallup_Poll-Approval_Rating-Barack_Obama.svg.png",
-						"startTime": 230.50500000000002
-					},
-					{
-						"duration": 551.0250000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/G8_leaders_watching_football.jpg/220px-G8_leaders_watching_football.jpg",
-						"startTime": 230.63000000000002
-					},
-					{
-						"duration": 556.0799999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/58th_Presidential_Inaugural_Ceremony_170120-D-BP749-1327.jpg/250px-58th_Presidential_Inaugural_Ceremony_170120-D-BP749-1327.jpg",
-						"startTime": 231.41500000000002
-					},
-					{
-						"duration": 554.78,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Obama_Macri_October_2017.jpg/200px-Obama_Macri_October_2017.jpg",
-						"startTime": 231.55
-					},
-					{
-						"duration": 555.2150000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Job_Growth_by_U.S._President_-_v1.png/370px-Job_Growth_by_U.S._President_-_v1.png",
-						"startTime": 231.645
-					},
-					{
-						"duration": 481.73,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=14kbqyi",
-						"startTime": 233.19500000000002
-					},
-					{
-						"duration": 545.6,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Obama.svg/21px-Obama.svg.png",
-						"startTime": 238.87500000000003
-					},
-					{
-						"duration": 546.73,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/28px-Great_Seal_of_the_United_States_%28obverse%29.svg.png",
-						"startTime": 239.06500000000003
-					},
-					{
-						"duration": 553.7650000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Samsung_Galaxy_S5_Vector.svg/14px-Samsung_Galaxy_S5_Vector.svg.png",
-						"startTime": 239.245
-					},
-					{
-						"duration": 552.5600000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Office-book.svg/30px-Office-book.svg.png",
-						"startTime": 239.34500000000003
-					},
-					{
-						"duration": 422.18500000000006,
-						"name":
-							"https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg",
-						"startTime": 293.35
-					},
-					{
-						"duration": 500.025,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif",
-						"startTime": 294.2900000000001
-					},
-					{
-						"duration": 230.23000000000002,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png",
-						"startTime": 850.1400000000001
-					},
-					{
-						"duration": 86.39499999999998,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=Spinner%2Coojs%2Csite%7Cext.centralNotice.choiceData%2Cdisplay%2CgeoIP%2CimpressionDiet%2CkvStore%2CkvStoreMaintenance%2ClegacySupport%2CstartUp%7Cext.centralauth.centralautologin%7Cext.cite.a11y%7Cext.eventLogging%2CnavigationTiming%2Cpopups%2CwikimediaEvents%7Cext.eventLogging.subscriber%7Cext.math.scripts%7Cext.popups.images%7Cext.uls.common%2Ceventlogger%2Cinit%2Cinterface%2Cpreferences%2Cwebfonts%7Cext.visualEditor.desktopArticleTarget.init%7Cext.visualEditor.supportCheck%2CtargetLoader%2CtempWikitextEditorWidget%2Ctrack%2Cve%7Cjquery.accessKeyLabel%2CbyteLength%2CcheckboxShiftClick%2Cclient%2Ccookie%2CembedPlayer%2CgetAttrs%2Chidpi%2ChighlightText%2CloadingSpinner%2Cmw-jump%2CmwEmbedUtil%2Csuggestions%2CtabIndex%2CtextSelection%2Cthrottle-debounce%2CtriggerQueueCallback%7Cjquery.uls.data%7Cmediawiki.RegExp%2CTitle%2CUri%2Capi%2Ccldr%2Ccookie%2Cexperiments%2CjqueryMsg%2Clanguage%2Cnotify%2CsearchSuggest%2Cstorage%2Ctemplate%2Ctoc%2Cuser%2Cutil%7Cmediawiki.api.options%2Cuser%7Cmediawiki.editfont.styles%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.wikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%2Cstartup%7Cmediawiki.template.mustache%2Cregexp%7Cmediawiki.ui.button%2Cicon%7Cmmv.bootstrap%2Chead%7Cmmv.bootstrap.autostart%7Cmw.EmbedPlayer.loader%7Cmw.MediaWikiPlayer.loader%7Cmw.MwEmbedSupport%2CPopUpMediaTransform%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform.styles%7Cmw.TMHGalleryHook.js%7Cmw.TimedText.loader%7Cschema.UniversalLanguageSelector%7Cskins.vector.js%7Cuser.defaults&skin=vector&version=1x5nhgg",
-						"startTime": 1068.755
-					},
-					{
-						"duration": 88.13000000000011,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice&skin=vector&version=1seuo1f",
-						"startTime": 1071.43
-					},
-					{
-						"duration": 79.62000000000012,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png",
-						"startTime": 1188.245
-					},
-					{
-						"duration": 79.20000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/15px-Speaker_Icon.svg.png",
-						"startTime": 1189.42
-					},
-					{
-						"duration": 79.68499999999995,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png",
-						"startTime": 1189.5950000000003
-					},
-					{
-						"duration": 80.25,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/President_Barack_Obama%2C_2012_portrait_crop.jpg/100px-President_Barack_Obama%2C_2012_portrait_crop.jpg",
-						"startTime": 1189.72
-					},
-					{
-						"duration": 79.50999999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png",
-						"startTime": 1191.1550000000002
-					},
-					{
-						"duration": 79.95499999999993,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png",
-						"startTime": 1191.3250000000003
-					},
-					{
-						"duration": 79.79500000000007,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png",
-						"startTime": 1192.0900000000001
-					},
-					{
-						"duration": 107.56500000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/85px-Seal_of_the_President_of_the_United_States.svg.png",
-						"startTime": 1266.345
-					},
-					{
-						"duration": 38.86499999999978,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_flag_waving.svg/15px-Yellow_flag_waving.svg.png",
-						"startTime": 1372.8100000000002
-					},
-					{
-						"duration": 57.36500000000024,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Seal_of_the_United_States_Senate.svg/80px-Seal_of_the_United_States_Senate.svg.png",
-						"startTime": 1405.81
-					},
-					{
-						"duration": 57.825000000000045,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png",
-						"startTime": 1406.7200000000003
-					},
-					{
-						"duration": 58.18500000000017,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/30px-Wikinews-logo.svg.png",
-						"startTime": 1407.04
-					},
-					{
-						"duration": 59.12500000000023,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/25px-Wikiquote-logo.svg.png",
-						"startTime": 1407.315
-					},
-					{
-						"duration": 58.784999999999854,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/29px-Wikisource-logo.svg.png",
-						"startTime": 1408.3150000000003
-					},
-					{
-						"duration": 183.97500000000014,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png",
-						"startTime": 1408.605
-					},
-					{
-						"duration": 164.22000000000003,
-						"name":
-							"https://en.wikipedia.org/static/images/wikimedia-button.png",
-						"startTime": 1462.4850000000001
-					},
-					{
-						"duration": 164.80999999999995,
-						"name":
-							"https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png",
-						"startTime": 1462.67
-					},
-					{
-						"duration": 255.29500000000007,
-						"name":
-							"https://login.wikimedia.org/wiki/Special:CentralAutoLogin/checkLoggedIn?type=script&wikiid=enwiki&proto=https",
-						"startTime": 1757.8500000000001
-					},
-					{
-						"duration": 291.8250000000003,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.tmh.OgvJsSupport%7CfullScreenApi%7Cjquery.debouncedresize%2CembedMenu%2ChoverIntent%7Cjquery.ui.touchPunch%7Cmediawiki.UtilitiesTime%2CabsoluteUrl%2Cclient%7Cmw.Api%2CEmbedPlayer%2CEmbedPlayerNative%2CEmbedTypes%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CMediaWikiPlayerSupport%2CPlayerSkinKskin%2CTextSource%2CTimedText%2CajaxProxy&skin=vector&version=0cr75i1",
-						"startTime": 1864.045
-					},
-					{
-						"duration": 292.28999999999996,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery.ui.core%2Cmouse%2Cslider%2Cwidget%7Cjquery.ui.core.styles&skin=vector&version=0skt22d",
-						"startTime": 1865.145
-					},
-					{
-						"duration": 124.08500000000004,
-						"name": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-						"startTime": 2163.67
-					},
-					{
-						"duration": 86.38500000000022,
-						"name":
-							"https://en.wikipedia.org/w/extensions/TimedMediaHandler/MwEmbedModules/EmbedPlayer/resources/skins/kskin/images/ksprite.png?3c85d",
-						"startTime": 2460.385
-					}
-				],
-				"rumSpeedIndex": 737,
-				"timeToNonBlankPaint": 737,
-				"userTimings": {
-					"marks": [
-						{ "name": "mwLoadStart", "startTime": 816.4800000000001 },
-						{ "name": "mwLoadEnd", "startTime": 2287.205 }
-					],
-					"measures": []
-				}
-			}
-		},
-		{
-			"browser": {
-				"userAgent":
-					"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-				"windowSize": "1199x893"
-			},
-			"pageinfo": {
-				"documentHeight": 41466,
-				"documentTitle": "Barack Obama - Wikipedia",
-				"documentWidth": 1184,
-				"responsive": true
-			},
-			"timings": {
-				"firstPaint": 640.27,
-				"fullyLoaded": 2357.4550000000004,
-				"navigationTiming": {
-					"connectEnd": 63,
-					"connectStart": 2,
-					"domComplete": 1775,
-					"domContentLoadedEventEnd": 1768,
-					"domContentLoadedEventStart": 1767,
-					"domInteractive": 1766,
-					"domLoading": 98,
-					"domainLookupEnd": 2,
-					"domainLookupStart": 1,
-					"fetchStart": 1,
-					"loadEventEnd": 1775,
-					"loadEventStart": 1775,
-					"navigationStart": 0,
-					"requestStart": 64,
-					"responseEnd": 812,
-					"responseStart": 93,
-					"secureConnectionStart": 30
-				},
-				"pageTimings": {
-					"backEndTime": 93,
-					"domContentLoadedTime": 1767,
-					"domInteractiveTime": 1766,
-					"domainLookupTime": 1,
-					"frontEndTime": 963,
-					"pageDownloadTime": 719,
-					"pageLoadTime": 1775,
-					"redirectionTime": 1,
-					"serverConnectionTime": 61,
-					"serverResponseTime": 748
-				},
-				"paintTiming": {
-					"first-contentful-paint": 640.2750000000001,
-					"first-paint": 640.27
-				},
-				"resourceTimings": [
-					{
-						"duration": 95.80000000000001,
-						"name":
-							"https://en.wikipedia.org/static/images/project-logos/enwiki.png",
-						"startTime": 106.9
-					},
-					{
-						"duration": 107.605,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.cite.styles%7Cext.math.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector",
-						"startTime": 108.94000000000001
-					},
-					{
-						"duration": 130.71000000000004,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector",
-						"startTime": 109.185
-					},
-					{
-						"duration": 95.24500000000002,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.charinsert-styles&only=styles&skin=vector",
-						"startTime": 109.34500000000001
-					},
-					{
-						"duration": 112.96999999999998,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector",
-						"startTime": 109.46000000000002
-					},
-					{
-						"duration": 515.895,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Cscr-featured.svg/20px-Cscr-featured.svg.png",
-						"startTime": 109.555
-					},
-					{
-						"duration": 520.61,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png",
-						"startTime": 109.64500000000001
-					},
-					{
-						"duration": 519.505,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png",
-						"startTime": 109.72500000000001
-					},
-					{
-						"duration": 518.305,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
-						"startTime": 109.85000000000001
-					},
-					{
-						"duration": 521.28,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Barack_Obama_signature.svg/128px-Barack_Obama_signature.svg.png",
-						"startTime": 110.06500000000001
-					},
-					{
-						"duration": 523.8100000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Barack_Obama_Hope_poster.jpg/75px-Barack_Obama_Hope_poster.jpg",
-						"startTime": 110.26500000000001
-					},
-					{
-						"duration": 524.855,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/60px-Seal_of_the_President_of_the_United_States.svg.png",
-						"startTime": 110.385
-					},
-					{
-						"duration": 525.9100000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Barack_Obama_and_Bill_Clinton.jpg/180px-Barack_Obama_and_Bill_Clinton.jpg",
-						"startTime": 110.47000000000001
-					},
-					{
-						"duration": 527.02,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/0/01/A_coloured_voting_box.svg/16px-A_coloured_voting_box.svg.png",
-						"startTime": 110.56500000000001
-					},
-					{
-						"duration": 527.815,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png",
-						"startTime": 110.79000000000002
-					},
-					{
-						"duration": 504.78999999999996,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Obama_family_portrait_in_the_Green_Room.jpg/220px-Obama_family_portrait_in_the_Green_Room.jpg",
-						"startTime": 136.87000000000003
-					},
-					{
-						"duration": 503.4800000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BlackhawksWhiteHouse2010.jpg/220px-BlackhawksWhiteHouse2010.jpg",
-						"startTime": 137.03500000000003
-					},
-					{
-						"duration": 505.70000000000016,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Barack_Obama_playing_basketball_with_members_of_Congress_and_Cabinet_secretaries_2.jpg/170px-Barack_Obama_playing_basketball_with_members_of_Congress_and_Cabinet_secretaries_2.jpg",
-						"startTime": 137.16
-					},
-					{
-						"duration": 506.515,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/DIG13623-230.jpg/170px-DIG13623-230.jpg",
-						"startTime": 137.25
-					},
-					{
-						"duration": 509.41999999999996,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Obamas_at_church_on_Inauguration_Day_2013.jpg/220px-Obamas_at_church_on_Inauguration_Day_2013.jpg",
-						"startTime": 137.37500000000003
-					},
-					{
-						"duration": 506.7200000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nuvola_apps_kaboodle.svg/16px-Nuvola_apps_kaboodle.svg.png",
-						"startTime": 137.92000000000002
-					},
-					{
-						"duration": 507.28499999999997,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Obamamiltondavis1.jpg/220px-Obamamiltondavis1.jpg",
-						"startTime": 138.25500000000002
-					},
-					{
-						"duration": 509.1900000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Illinois_Senate_Election_Results_by_County%2C_2004.svg/110px-Illinois_Senate_Election_Results_by_County%2C_2004.svg.png",
-						"startTime": 138.685
-					},
-					{
-						"duration": 497.565,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BarackObamaportrait.jpg/220px-BarackObamaportrait.jpg",
-						"startTime": 151.52500000000003
-					},
-					{
-						"duration": 497.86,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lugar-Obama.jpg/220px-Lugar-Obama.jpg",
-						"startTime": 151.94500000000002
-					},
-					{
-						"duration": 498.38,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Barack_Obama_Iraq_2006.jpg/220px-Barack_Obama_Iraq_2006.jpg",
-						"startTime": 153.99
-					},
-					{
-						"duration": 496.15000000000003,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flickr_Obama_Springfield_01.jpg/220px-Flickr_Obama_Springfield_01.jpg",
-						"startTime": 154.27500000000003
-					},
-					{
-						"duration": 496.62500000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/President_George_W._Bush_and_Barack_Obama_meet_in_Oval_Office.jpg/220px-President_George_W._Bush_and_Barack_Obama_meet_in_Oval_Office.jpg",
-						"startTime": 154.41500000000002
-					},
-					{
-						"duration": 497.025,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/ElectoralCollege2008.svg/275px-ElectoralCollege2008.svg.png",
-						"startTime": 154.60500000000002
-					},
-					{
-						"duration": 498.395,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/P112912PS-0444_-_President_Barack_Obama_and_Mitt_Romney_in_the_Oval_Office_-_crop.jpg/220px-P112912PS-0444_-_President_Barack_Obama_and_Mitt_Romney_in_the_Oval_Office_-_crop.jpg",
-						"startTime": 154.93500000000003
-					},
-					{
-						"duration": 499.14000000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/ElectoralCollege2012.svg/275px-ElectoralCollege2012.svg.png",
-						"startTime": 155.315
-					},
-					{
-						"duration": 498.455,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/US_President_Barack_Obama_taking_his_Oath_of_Office_-_2009Jan20.jpg/220px-US_President_Barack_Obama_taking_his_Oath_of_Office_-_2009Jan20.jpg",
-						"startTime": 156.815
-					},
-					{
-						"duration": 499.0150000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Barack_Obama_addresses_joint_session_of_Congress_2009-02-24.jpg/220px-Barack_Obama_addresses_joint_session_of_Congress_2009-02-24.jpg",
-						"startTime": 157.12500000000003
-					},
-					{
-						"duration": 499.5400000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Obama_cabinet_meeting_2009-11.jpg/220px-Obama_cabinet_meeting_2009-11.jpg",
-						"startTime": 157.38500000000002
-					},
-					{
-						"duration": 500.11,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/White_House_rainbow_colors_to_celebrate_June_2015_SCOTUS_same-sex_marriage_ruling.jpeg/300px-White_House_rainbow_colors_to_celebrate_June_2015_SCOTUS_same-sex_marriage_ruling.jpeg",
-						"startTime": 157.60500000000002
-					},
-					{
-						"duration": 501.1400000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/20090124_WeeklyAddress.ogv/220px-seek%3D63-20090124_WeeklyAddress.ogv.jpg",
-						"startTime": 157.9
-					},
-					{
-						"duration": 502.515,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/U.S._Total_Deficits_vs._National_Debt_Increases_2001-2010.png/220px-U.S._Total_Deficits_vs._National_Debt_Increases_2001-2010.png",
-						"startTime": 158.115
-					},
-					{
-						"duration": 496.58000000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/US_Employment_Statistics.svg/300px-US_Employment_Statistics.svg.png",
-						"startTime": 167.02
-					},
-					{
-						"duration": 494.6950000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Obama-venice-la.jpg/220px-Obama-venice-la.jpg",
-						"startTime": 167.41500000000002
-					},
-					{
-						"duration": 494.93500000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Obama_signs_health_care-20100323.jpg/220px-Obama_signs_health_care-20100323.jpg",
-						"startTime": 167.835
-					},
-					{
-						"duration": 496.93500000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PPACA_Premium_Chart.jpg/300px-PPACA_Premium_Chart.jpg",
-						"startTime": 168.03
-					},
-					{
-						"duration": 497.7950000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Percentage_of_Individuals_in_the_United_States_Without_Health_Insurance%2C_1963-2015.png/220px-Percentage_of_Individuals_in_the_United_States_Without_Health_Insurance%2C_1963-2015.png",
-						"startTime": 168.215
-					},
-					{
-						"duration": 498.43000000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Barack_Obama_visiting_victims_of_2012_Aurora_shooting.jpg/220px-Barack_Obama_visiting_victims_of_2012_Aurora_shooting.jpg",
-						"startTime": 168.61
-					},
-					{
-						"duration": 499.2950000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Barack_Obama_at_Cairo_University_cropped.jpg/200px-Barack_Obama_at_Cairo_University_cropped.jpg",
-						"startTime": 168.78
-					},
-					{
-						"duration": 498.9150000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Barack_Obama_foreign_trips.svg/220px-Barack_Obama_foreign_trips.svg.png",
-						"startTime": 170.145
-					},
-					{
-						"duration": 502.90000000000003,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/President_Barack_Obama_looks_at_Rembrandt%27s_%22The_Syndics%22.jpg/220px-President_Barack_Obama_looks_at_Rembrandt%27s_%22The_Syndics%22.jpg",
-						"startTime": 170.41500000000002
-					},
-					{
-						"duration": 499.29999999999995,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Barack_Obama_and_Matteo_Renzi_October_2016%2C_1.jpg/220px-Barack_Obama_and_Matteo_Renzi_October_2016%2C_1.jpg",
-						"startTime": 170.865
-					},
-					{
-						"duration": 500.005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/David_Cameron_and_Barack_Obama_at_the_G20_Summit_in_Toronto.jpg/220px-David_Cameron_and_Barack_Obama_at_the_G20_Summit_in_Toronto.jpg",
-						"startTime": 171.265
-					},
-					{
-						"duration": 503.63,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Barack_Obama_welcomes_Shimon_Peres_in_the_Oval_Office.jpg/220px-Barack_Obama_welcomes_Shimon_Peres_in_the_Oval_Office.jpg",
-						"startTime": 171.71
-					},
-					{
-						"duration": 500.44000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_04.jpg/220px-Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_04.jpg",
-						"startTime": 171.84000000000003
-					},
-					{
-						"duration": 483.97,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/President_Obama_on_Death_of_Osama_bin_Laden.ogv/220px--President_Obama_on_Death_of_Osama_bin_Laden.ogv.jpg",
-						"startTime": 190.34
-					},
-					{
-						"duration": 487.0000000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/11px-Wikisource-logo.svg.png",
-						"startTime": 190.53
-					},
-					{
-						"duration": 485.69500000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Obama_and_Biden_await_updates_on_bin_Laden.jpg/220px-Obama_and_Biden_await_updates_on_bin_Laden.jpg",
-						"startTime": 190.87
-					},
-					{
-						"duration": 487.31,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Barack_Obama_talks_with_Benjamin_Netanyahu_%288637772147%29.jpg/220px-Barack_Obama_talks_with_Benjamin_Netanyahu_%288637772147%29.jpg",
-						"startTime": 191.18
-					},
-					{
-						"duration": 488.88,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Handshake_between_the_President_and_Cuban_President_Ra%C3%BAl_Castro.jpg/220px-Handshake_between_the_President_and_Cuban_President_Ra%C3%BAl_Castro.jpg",
-						"startTime": 191.61
-					},
-					{
-						"duration": 487.60500000000013,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_01.jpg/220px-Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_01.jpg",
-						"startTime": 191.76000000000002
-					},
-					{
-						"duration": 492.4350000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Official_portrait_of_Barack_Obama.jpg/220px-Official_portrait_of_Barack_Obama.jpg",
-						"startTime": 192.06
-					},
-					{
-						"duration": 493.2,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gallup_Poll-Approval_Rating-Barack_Obama.svg/220px-Gallup_Poll-Approval_Rating-Barack_Obama.svg.png",
-						"startTime": 192.56
-					},
-					{
-						"duration": 489.0100000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/G8_leaders_watching_football.jpg/220px-G8_leaders_watching_football.jpg",
-						"startTime": 192.725
-					},
-					{
-						"duration": 488.9200000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/58th_Presidential_Inaugural_Ceremony_170120-D-BP749-1327.jpg/250px-58th_Presidential_Inaugural_Ceremony_170120-D-BP749-1327.jpg",
-						"startTime": 194.115
-					},
-					{
-						"duration": 489.5350000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Obama_Macri_October_2017.jpg/200px-Obama_Macri_October_2017.jpg",
-						"startTime": 194.335
-					},
-					{
-						"duration": 490.4100000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Job_Growth_by_U.S._President_-_v1.png/370px-Job_Growth_by_U.S._President_-_v1.png",
-						"startTime": 194.74000000000004
-					},
-					{
-						"duration": 481.81499999999994,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Obama.svg/21px-Obama.svg.png",
-						"startTime": 204.705
-					},
-					{
-						"duration": 484.82000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/28px-Great_Seal_of_the_United_States_%28obverse%29.svg.png",
-						"startTime": 204.87000000000003
-					},
-					{
-						"duration": 483.7850000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Samsung_Galaxy_S5_Vector.svg/14px-Samsung_Galaxy_S5_Vector.svg.png",
-						"startTime": 205.01000000000002
-					},
-					{
-						"duration": 482.46000000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Office-book.svg/30px-Office-book.svg.png",
-						"startTime": 205.12500000000003
-					},
-					{
-						"duration": 397.85499999999996,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=14kbqyi",
-						"startTime": 225.52000000000004
-					},
-					{
-						"duration": 395.41999999999996,
-						"name":
-							"https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg",
-						"startTime": 228.45000000000002
-					},
-					{
-						"duration": 418.445,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif",
-						"startTime": 269.79
-					},
-					{
-						"duration": 150.84000000000003,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png",
-						"startTime": 809.0550000000001
-					},
-					{
-						"duration": 81.86000000000001,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=Spinner%2Coojs%2Csite%7Cext.centralNotice.choiceData%2Cdisplay%2CgeoIP%2CimpressionDiet%2CkvStore%2CkvStoreMaintenance%2ClegacySupport%2CstartUp%7Cext.centralauth.centralautologin%7Cext.cite.a11y%7Cext.eventLogging%2CnavigationTiming%2Cpopups%2CwikimediaEvents%7Cext.eventLogging.subscriber%7Cext.math.scripts%7Cext.popups.images%7Cext.uls.common%2Ceventlogger%2Cinit%2Cinterface%2Cpreferences%2Cwebfonts%7Cext.visualEditor.desktopArticleTarget.init%7Cext.visualEditor.supportCheck%2CtargetLoader%2CtempWikitextEditorWidget%2Ctrack%2Cve%7Cjquery.accessKeyLabel%2CbyteLength%2CcheckboxShiftClick%2Cclient%2Ccookie%2CembedPlayer%2CgetAttrs%2Chidpi%2ChighlightText%2CloadingSpinner%2Cmw-jump%2CmwEmbedUtil%2Csuggestions%2CtabIndex%2CtextSelection%2Cthrottle-debounce%2CtriggerQueueCallback%7Cjquery.uls.data%7Cmediawiki.RegExp%2CTitle%2CUri%2Capi%2Ccldr%2Ccookie%2Cexperiments%2CjqueryMsg%2Clanguage%2Cnotify%2CsearchSuggest%2Cstorage%2Ctemplate%2Ctoc%2Cuser%2Cutil%7Cmediawiki.api.options%2Cuser%7Cmediawiki.editfont.styles%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.wikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%2Cstartup%7Cmediawiki.template.mustache%2Cregexp%7Cmediawiki.ui.button%2Cicon%7Cmmv.bootstrap%2Chead%7Cmmv.bootstrap.autostart%7Cmw.EmbedPlayer.loader%7Cmw.MediaWikiPlayer.loader%7Cmw.MwEmbedSupport%2CPopUpMediaTransform%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform.styles%7Cmw.TMHGalleryHook.js%7Cmw.TimedText.loader%7Cschema.UniversalLanguageSelector%7Cskins.vector.js%7Cuser.defaults&skin=vector&version=1x5nhgg",
-						"startTime": 878.9950000000001
-					},
-					{
-						"duration": 77.65500000000009,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice&skin=vector&version=1seuo1f",
-						"startTime": 883.9300000000001
-					},
-					{
-						"duration": 71.77500000000009,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png",
-						"startTime": 1121.2450000000001
-					},
-					{
-						"duration": 72.3900000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/15px-Speaker_Icon.svg.png",
-						"startTime": 1121.49
-					},
-					{
-						"duration": 72.79999999999995,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png",
-						"startTime": 1121.6650000000002
-					},
-					{
-						"duration": 73.30000000000018,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/President_Barack_Obama%2C_2012_portrait_crop.jpg/100px-President_Barack_Obama%2C_2012_portrait_crop.jpg",
-						"startTime": 1121.82
-					},
-					{
-						"duration": 97.18000000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png",
-						"startTime": 1189.1450000000002
-					},
-					{
-						"duration": 97.4699999999998,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png",
-						"startTime": 1189.5200000000002
-					},
-					{
-						"duration": 97.8900000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png",
-						"startTime": 1189.675
-					},
-					{
-						"duration": 96.32999999999993,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/85px-Seal_of_the_President_of_the_United_States.svg.png",
-						"startTime": 1191.7300000000002
-					},
-					{
-						"duration": 70.47000000000003,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_flag_waving.svg/15px-Yellow_flag_waving.svg.png",
-						"startTime": 1238.515
-					},
-					{
-						"duration": 182.0300000000002,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Seal_of_the_United_States_Senate.svg/80px-Seal_of_the_United_States_Senate.svg.png",
-						"startTime": 1303.63
-					},
-					{
-						"duration": 184.9000000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png",
-						"startTime": 1306.5900000000001
-					},
-					{
-						"duration": 181.42000000000007,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/30px-Wikinews-logo.svg.png",
-						"startTime": 1307.275
-					},
-					{
-						"duration": 156.49,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/25px-Wikiquote-logo.svg.png",
-						"startTime": 1342.195
-					},
-					{
-						"duration": 157.32999999999993,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/29px-Wikisource-logo.svg.png",
-						"startTime": 1342.65
-					},
-					{
-						"duration": 158.96000000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png",
-						"startTime": 1342.8300000000002
-					},
-					{
-						"duration": 46.27500000000009,
-						"name":
-							"https://login.wikimedia.org/wiki/Special:CentralAutoLogin/checkLoggedIn?type=script&wikiid=enwiki&proto=https",
-						"startTime": 1460.295
-					},
-					{
-						"duration": 201.29499999999985,
-						"name":
-							"https://en.wikipedia.org/static/images/wikimedia-button.png",
-						"startTime": 1497.8550000000002
-					},
-					{
-						"duration": 202.19500000000016,
-						"name":
-							"https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png",
-						"startTime": 1498.015
-					},
-					{
-						"duration": 245.68999999999983,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.tmh.OgvJsSupport%7CfullScreenApi%7Cjquery.debouncedresize%2CembedMenu%2ChoverIntent%7Cjquery.ui.touchPunch%7Cmediawiki.UtilitiesTime%2CabsoluteUrl%2Cclient%7Cmw.Api%2CEmbedPlayer%2CEmbedPlayerNative%2CEmbedTypes%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CMediaWikiPlayerSupport%2CPlayerSkinKskin%2CTextSource%2CTimedText%2CajaxProxy&skin=vector&version=0cr75i1",
-						"startTime": 1852.9000000000003
-					},
-					{
-						"duration": 251.6550000000002,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery.ui.core%2Cmouse%2Cslider%2Cwidget%7Cjquery.ui.core.styles&skin=vector&version=0skt22d",
-						"startTime": 1854
-					},
-					{
-						"duration": 41.32500000000027,
-						"name": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-						"startTime": 2118.46
-					},
-					{
-						"duration": 89.17500000000018,
-						"name":
-							"https://en.wikipedia.org/w/extensions/TimedMediaHandler/MwEmbedModules/EmbedPlayer/resources/skins/kskin/images/ksprite.png?3c85d",
-						"startTime": 2268.28
-					}
-				],
-				"rumSpeedIndex": 640,
-				"timeToNonBlankPaint": 640,
-				"userTimings": {
-					"marks": [
-						{ "name": "mwLoadStart", "startTime": 757.11 },
-						{ "name": "mwLoadEnd", "startTime": 2121.4 }
-					],
-					"measures": []
-				}
-			}
-		},
-		{
-			"browser": {
-				"userAgent":
-					"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-				"windowSize": "1199x893"
-			},
-			"pageinfo": {
-				"documentHeight": 41466,
-				"documentTitle": "Barack Obama - Wikipedia",
-				"documentWidth": 1184,
-				"responsive": true
-			},
-			"timings": {
-				"firstPaint": 669.7850000000001,
-				"fullyLoaded": 2511.975,
-				"navigationTiming": {
-					"connectEnd": 77,
-					"connectStart": 2,
-					"domComplete": 1869,
-					"domContentLoadedEventEnd": 1775,
-					"domContentLoadedEventStart": 1774,
-					"domInteractive": 1774,
-					"domLoading": 115,
-					"domainLookupEnd": 2,
-					"domainLookupStart": 1,
-					"fetchStart": 0,
-					"loadEventEnd": 1870,
-					"loadEventStart": 1869,
-					"navigationStart": 0,
-					"requestStart": 78,
-					"responseEnd": 997,
-					"responseStart": 106,
-					"secureConnectionStart": 37
-				},
-				"pageTimings": {
-					"backEndTime": 106,
-					"domContentLoadedTime": 1774,
-					"domInteractiveTime": 1774,
-					"domainLookupTime": 1,
-					"frontEndTime": 872,
-					"pageDownloadTime": 891,
-					"pageLoadTime": 1869,
-					"redirectionTime": 0,
-					"serverConnectionTime": 75,
-					"serverResponseTime": 919
-				},
-				"paintTiming": {
-					"first-contentful-paint": 669.7900000000001,
-					"first-paint": 669.7850000000001
-				},
-				"resourceTimings": [
-					{
-						"duration": 136.23000000000002,
-						"name":
-							"https://en.wikipedia.org/static/images/project-logos/enwiki.png",
-						"startTime": 124.86500000000001
-					},
-					{
-						"duration": 112.35000000000002,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.cite.styles%7Cext.math.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector",
-						"startTime": 126.57500000000002
-					},
-					{
-						"duration": 120.455,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector",
-						"startTime": 126.71500000000002
-					},
-					{
-						"duration": 134.85,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.charinsert-styles&only=styles&skin=vector",
-						"startTime": 126.89500000000001
-					},
-					{
-						"duration": 135.29999999999998,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector",
-						"startTime": 127.03
-					},
-					{
-						"duration": 538.4350000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Cscr-featured.svg/20px-Cscr-featured.svg.png",
-						"startTime": 127.14
-					},
-					{
-						"duration": 539.5,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png",
-						"startTime": 127.24499999999999
-					},
-					{
-						"duration": 533.845,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png",
-						"startTime": 127.36500000000001
-					},
-					{
-						"duration": 536.3500000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
-						"startTime": 127.50500000000001
-					},
-					{
-						"duration": 541.445,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Barack_Obama_signature.svg/128px-Barack_Obama_signature.svg.png",
-						"startTime": 127.62
-					},
-					{
-						"duration": 542.47,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Barack_Obama_Hope_poster.jpg/75px-Barack_Obama_Hope_poster.jpg",
-						"startTime": 127.71500000000002
-					},
-					{
-						"duration": 546.815,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/60px-Seal_of_the_President_of_the_United_States.svg.png",
-						"startTime": 127.85500000000002
-					},
-					{
-						"duration": 550.735,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Barack_Obama_and_Bill_Clinton.jpg/180px-Barack_Obama_and_Bill_Clinton.jpg",
-						"startTime": 127.96000000000002
-					},
-					{
-						"duration": 547.64,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/0/01/A_coloured_voting_box.svg/16px-A_coloured_voting_box.svg.png",
-						"startTime": 128.09
-					},
-					{
-						"duration": 548.5400000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png",
-						"startTime": 128.23000000000002
-					},
-					{
-						"duration": 476.9550000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Obama_family_portrait_in_the_Green_Room.jpg/220px-Obama_family_portrait_in_the_Green_Room.jpg",
-						"startTime": 200.81
-					},
-					{
-						"duration": 478.12000000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BlackhawksWhiteHouse2010.jpg/220px-BlackhawksWhiteHouse2010.jpg",
-						"startTime": 201.175
-					},
-					{
-						"duration": 486.96500000000003,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Barack_Obama_playing_basketball_with_members_of_Congress_and_Cabinet_secretaries_2.jpg/170px-Barack_Obama_playing_basketball_with_members_of_Congress_and_Cabinet_secretaries_2.jpg",
-						"startTime": 201.37500000000003
-					},
-					{
-						"duration": 478.8750000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/DIG13623-230.jpg/170px-DIG13623-230.jpg",
-						"startTime": 201.77
-					},
-					{
-						"duration": 479.3,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Obamas_at_church_on_Inauguration_Day_2013.jpg/220px-Obamas_at_church_on_Inauguration_Day_2013.jpg",
-						"startTime": 202.65000000000003
-					},
-					{
-						"duration": 480.2800000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nuvola_apps_kaboodle.svg/16px-Nuvola_apps_kaboodle.svg.png",
-						"startTime": 203.72500000000002
-					},
-					{
-						"duration": 481.06,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Obamamiltondavis1.jpg/220px-Obamamiltondavis1.jpg",
-						"startTime": 203.90000000000003
-					},
-					{
-						"duration": 485.1350000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Illinois_Senate_Election_Results_by_County%2C_2004.svg/110px-Illinois_Senate_Election_Results_by_County%2C_2004.svg.png",
-						"startTime": 204.27
-					},
-					{
-						"duration": 479.55,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BarackObamaportrait.jpg/220px-BarackObamaportrait.jpg",
-						"startTime": 211.68
-					},
-					{
-						"duration": 478.5799999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lugar-Obama.jpg/220px-Lugar-Obama.jpg",
-						"startTime": 211.92500000000004
-					},
-					{
-						"duration": 479.9100000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Barack_Obama_Iraq_2006.jpg/220px-Barack_Obama_Iraq_2006.jpg",
-						"startTime": 212.09000000000003
-					},
-					{
-						"duration": 482.7950000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flickr_Obama_Springfield_01.jpg/220px-Flickr_Obama_Springfield_01.jpg",
-						"startTime": 212.205
-					},
-					{
-						"duration": 484.015,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/President_George_W._Bush_and_Barack_Obama_meet_in_Oval_Office.jpg/220px-President_George_W._Bush_and_Barack_Obama_meet_in_Oval_Office.jpg",
-						"startTime": 212.47500000000002
-					},
-					{
-						"duration": 484.17999999999995,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/ElectoralCollege2008.svg/275px-ElectoralCollege2008.svg.png",
-						"startTime": 212.965
-					},
-					{
-						"duration": 486.30500000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/P112912PS-0444_-_President_Barack_Obama_and_Mitt_Romney_in_the_Oval_Office_-_crop.jpg/220px-P112912PS-0444_-_President_Barack_Obama_and_Mitt_Romney_in_the_Oval_Office_-_crop.jpg",
-						"startTime": 213.21
-					},
-					{
-						"duration": 485.08500000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/ElectoralCollege2012.svg/275px-ElectoralCollege2012.svg.png",
-						"startTime": 213.4
-					},
-					{
-						"duration": 485.52500000000003,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/US_President_Barack_Obama_taking_his_Oath_of_Office_-_2009Jan20.jpg/220px-US_President_Barack_Obama_taking_his_Oath_of_Office_-_2009Jan20.jpg",
-						"startTime": 215.03000000000003
-					},
-					{
-						"duration": 485.965,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Barack_Obama_addresses_joint_session_of_Congress_2009-02-24.jpg/220px-Barack_Obama_addresses_joint_session_of_Congress_2009-02-24.jpg",
-						"startTime": 215.54000000000002
-					},
-					{
-						"duration": 486.67500000000007,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Obama_cabinet_meeting_2009-11.jpg/220px-Obama_cabinet_meeting_2009-11.jpg",
-						"startTime": 215.76000000000002
-					},
-					{
-						"duration": 487.995,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/White_House_rainbow_colors_to_celebrate_June_2015_SCOTUS_same-sex_marriage_ruling.jpeg/300px-White_House_rainbow_colors_to_celebrate_June_2015_SCOTUS_same-sex_marriage_ruling.jpeg",
-						"startTime": 216.32500000000002
-					},
-					{
-						"duration": 486.89,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/20090124_WeeklyAddress.ogv/220px-seek%3D63-20090124_WeeklyAddress.ogv.jpg",
-						"startTime": 216.49500000000003
-					},
-					{
-						"duration": 490.56000000000006,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/U.S._Total_Deficits_vs._National_Debt_Increases_2001-2010.png/220px-U.S._Total_Deficits_vs._National_Debt_Increases_2001-2010.png",
-						"startTime": 216.62
-					},
-					{
-						"duration": 436.5650000000001,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=14kbqyi",
-						"startTime": 223.31
-					},
-					{
-						"duration": 480.365,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/US_Employment_Statistics.svg/300px-US_Employment_Statistics.svg.png",
-						"startTime": 225.835
-					},
-					{
-						"duration": 479.24,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Obama-venice-la.jpg/220px-Obama-venice-la.jpg",
-						"startTime": 226.01000000000002
-					},
-					{
-						"duration": 483.12,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Obama_signs_health_care-20100323.jpg/220px-Obama_signs_health_care-20100323.jpg",
-						"startTime": 226.12500000000003
-					},
-					{
-						"duration": 484.82000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PPACA_Premium_Chart.jpg/300px-PPACA_Premium_Chart.jpg",
-						"startTime": 226.28
-					},
-					{
-						"duration": 486.7750000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Percentage_of_Individuals_in_the_United_States_Without_Health_Insurance%2C_1963-2015.png/220px-Percentage_of_Individuals_in_the_United_States_Without_Health_Insurance%2C_1963-2015.png",
-						"startTime": 226.39000000000001
-					},
-					{
-						"duration": 481.7900000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Barack_Obama_visiting_victims_of_2012_Aurora_shooting.jpg/220px-Barack_Obama_visiting_victims_of_2012_Aurora_shooting.jpg",
-						"startTime": 226.48000000000002
-					},
-					{
-						"duration": 483.57000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Barack_Obama_at_Cairo_University_cropped.jpg/200px-Barack_Obama_at_Cairo_University_cropped.jpg",
-						"startTime": 226.56500000000003
-					},
-					{
-						"duration": 486.51500000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Barack_Obama_foreign_trips.svg/220px-Barack_Obama_foreign_trips.svg.png",
-						"startTime": 227.29000000000002
-					},
-					{
-						"duration": 484.5300000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/President_Barack_Obama_looks_at_Rembrandt%27s_%22The_Syndics%22.jpg/220px-President_Barack_Obama_looks_at_Rembrandt%27s_%22The_Syndics%22.jpg",
-						"startTime": 227.50500000000002
-					},
-					{
-						"duration": 487.08000000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Barack_Obama_and_Matteo_Renzi_October_2016%2C_1.jpg/220px-Barack_Obama_and_Matteo_Renzi_October_2016%2C_1.jpg",
-						"startTime": 227.615
-					},
-					{
-						"duration": 487.87,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/David_Cameron_and_Barack_Obama_at_the_G20_Summit_in_Toronto.jpg/220px-David_Cameron_and_Barack_Obama_at_the_G20_Summit_in_Toronto.jpg",
-						"startTime": 227.72
-					},
-					{
-						"duration": 488.645,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Barack_Obama_welcomes_Shimon_Peres_in_the_Oval_Office.jpg/220px-Barack_Obama_welcomes_Shimon_Peres_in_the_Oval_Office.jpg",
-						"startTime": 227.835
-					},
-					{
-						"duration": 490.735,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_04.jpg/220px-Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_04.jpg",
-						"startTime": 227.93500000000003
-					},
-					{
-						"duration": 493.6200000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/President_Obama_on_Death_of_Osama_bin_Laden.ogv/220px--President_Obama_on_Death_of_Osama_bin_Laden.ogv.jpg",
-						"startTime": 232.41
-					},
-					{
-						"duration": 491.885,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/11px-Wikisource-logo.svg.png",
-						"startTime": 233.09500000000003
-					},
-					{
-						"duration": 496.61,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Obama_and_Biden_await_updates_on_bin_Laden.jpg/220px-Obama_and_Biden_await_updates_on_bin_Laden.jpg",
-						"startTime": 233.33
-					},
-					{
-						"duration": 498.7450000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Barack_Obama_talks_with_Benjamin_Netanyahu_%288637772147%29.jpg/220px-Barack_Obama_talks_with_Benjamin_Netanyahu_%288637772147%29.jpg",
-						"startTime": 233.46000000000004
-					},
-					{
-						"duration": 493.98,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Handshake_between_the_President_and_Cuban_President_Ra%C3%BAl_Castro.jpg/220px-Handshake_between_the_President_and_Cuban_President_Ra%C3%BAl_Castro.jpg",
-						"startTime": 233.54500000000004
-					},
-					{
-						"duration": 502.36000000000007,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_01.jpg/220px-Vladimir_Putin_and_Barack_Obama_%282015-09-29%29_01.jpg",
-						"startTime": 233.65000000000003
-					},
-					{
-						"duration": 499.685,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Official_portrait_of_Barack_Obama.jpg/220px-Official_portrait_of_Barack_Obama.jpg",
-						"startTime": 233.78000000000003
-					},
-					{
-						"duration": 494.82000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gallup_Poll-Approval_Rating-Barack_Obama.svg/220px-Gallup_Poll-Approval_Rating-Barack_Obama.svg.png",
-						"startTime": 233.87000000000003
-					},
-					{
-						"duration": 503.395,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/G8_leaders_watching_football.jpg/220px-G8_leaders_watching_football.jpg",
-						"startTime": 233.97
-					},
-					{
-						"duration": 500.1650000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/58th_Presidential_Inaugural_Ceremony_170120-D-BP749-1327.jpg/250px-58th_Presidential_Inaugural_Ceremony_170120-D-BP749-1327.jpg",
-						"startTime": 234.63000000000002
-					},
-					{
-						"duration": 496.2900000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Obama_Macri_October_2017.jpg/200px-Obama_Macri_October_2017.jpg",
-						"startTime": 234.77
-					},
-					{
-						"duration": 503.5999999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Job_Growth_by_U.S._President_-_v1.png/370px-Job_Growth_by_U.S._President_-_v1.png",
-						"startTime": 234.94500000000002
-					},
-					{
-						"duration": 495.32000000000005,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Obama.svg/21px-Obama.svg.png",
-						"startTime": 244.55500000000004
-					},
-					{
-						"duration": 490.3,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/28px-Great_Seal_of_the_United_States_%28obverse%29.svg.png",
-						"startTime": 250.79000000000002
-					},
-					{
-						"duration": 489.0050000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Samsung_Galaxy_S5_Vector.svg/14px-Samsung_Galaxy_S5_Vector.svg.png",
-						"startTime": 253.38
-					},
-					{
-						"duration": 490.125,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Office-book.svg/30px-Office-book.svg.png",
-						"startTime": 253.525
-					},
-					{
-						"duration": 383.06,
-						"name":
-							"https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg",
-						"startTime": 288.295
-					},
-					{
-						"duration": 384.25,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif",
-						"startTime": 289.31500000000005
-					},
-					{
-						"duration": 78.09499999999991,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=Spinner%2Coojs%2Csite%7Cext.centralNotice.choiceData%2Cdisplay%2CgeoIP%2CimpressionDiet%2CkvStore%2CkvStoreMaintenance%2ClegacySupport%2CstartUp%7Cext.centralauth.centralautologin%7Cext.cite.a11y%7Cext.eventLogging%2CnavigationTiming%2Cpopups%2CwikimediaEvents%7Cext.eventLogging.subscriber%7Cext.math.scripts%7Cext.popups.images%7Cext.uls.common%2Ceventlogger%2Cinit%2Cinterface%2Cpreferences%2Cwebfonts%7Cext.visualEditor.desktopArticleTarget.init%7Cext.visualEditor.supportCheck%2CtargetLoader%2CtempWikitextEditorWidget%2Ctrack%2Cve%7Cjquery.accessKeyLabel%2CbyteLength%2CcheckboxShiftClick%2Cclient%2Ccookie%2CembedPlayer%2CgetAttrs%2Chidpi%2ChighlightText%2CloadingSpinner%2Cmw-jump%2CmwEmbedUtil%2Csuggestions%2CtabIndex%2CtextSelection%2Cthrottle-debounce%2CtriggerQueueCallback%7Cjquery.uls.data%7Cmediawiki.RegExp%2CTitle%2CUri%2Capi%2Ccldr%2Ccookie%2Cexperiments%2CjqueryMsg%2Clanguage%2Cnotify%2CsearchSuggest%2Cstorage%2Ctemplate%2Ctoc%2Cuser%2Cutil%7Cmediawiki.api.options%2Cuser%7Cmediawiki.editfont.styles%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.wikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%2Cstartup%7Cmediawiki.template.mustache%2Cregexp%7Cmediawiki.ui.button%2Cicon%7Cmmv.bootstrap%2Chead%7Cmmv.bootstrap.autostart%7Cmw.EmbedPlayer.loader%7Cmw.MediaWikiPlayer.loader%7Cmw.MwEmbedSupport%2CPopUpMediaTransform%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform.styles%7Cmw.TMHGalleryHook.js%7Cmw.TimedText.loader%7Cschema.UniversalLanguageSelector%7Cskins.vector.js%7Cuser.defaults&skin=vector&version=1x5nhgg",
-						"startTime": 984.5100000000001
-					},
-					{
-						"duration": 80.85000000000002,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice&skin=vector&version=1seuo1f",
-						"startTime": 986.1150000000001
-					},
-					{
-						"duration": 70.67000000000007,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png",
-						"startTime": 994.825
-					},
-					{
-						"duration": 87.25,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png",
-						"startTime": 1239.325
-					},
-					{
-						"duration": 87.30999999999995,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/15px-Speaker_Icon.svg.png",
-						"startTime": 1239.9600000000003
-					},
-					{
-						"duration": 87.65000000000009,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png",
-						"startTime": 1240.07
-					},
-					{
-						"duration": 91.02000000000021,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/President_Barack_Obama%2C_2012_portrait_crop.jpg/100px-President_Barack_Obama%2C_2012_portrait_crop.jpg",
-						"startTime": 1240.22
-					},
-					{
-						"duration": 92.68500000000017,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png",
-						"startTime": 1241.535
-					},
-					{
-						"duration": 90.91000000000008,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png",
-						"startTime": 1241.845
-					},
-					{
-						"duration": 92.95999999999981,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png",
-						"startTime": 1241.9900000000002
-					},
-					{
-						"duration": 105.23500000000013,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/85px-Seal_of_the_President_of_the_United_States.svg.png",
-						"startTime": 1325.005
-					},
-					{
-						"duration": 34.1400000000001,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yellow_flag_waving.svg/15px-Yellow_flag_waving.svg.png",
-						"startTime": 1429.285
-					},
-					{
-						"duration": 132.83500000000004,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Seal_of_the_United_States_Senate.svg/80px-Seal_of_the_United_States_Senate.svg.png",
-						"startTime": 1460.4950000000001
-					},
-					{
-						"duration": 133.9949999999999,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png",
-						"startTime": 1461.0900000000001
-					},
-					{
-						"duration": 135.20500000000015,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/30px-Wikinews-logo.svg.png",
-						"startTime": 1461.285
-					},
-					{
-						"duration": 136.19500000000016,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/25px-Wikiquote-logo.svg.png",
-						"startTime": 1461.405
-					},
-					{
-						"duration": 137.24500000000012,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/29px-Wikisource-logo.svg.png",
-						"startTime": 1461.515
-					},
-					{
-						"duration": 138.4150000000002,
-						"name":
-							"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png",
-						"startTime": 1461.6
-					},
-					{
-						"duration": 258.83500000000026,
-						"name":
-							"https://en.wikipedia.org/static/images/wikimedia-button.png",
-						"startTime": 1507.065
-					},
-					{
-						"duration": 259.69499999999994,
-						"name":
-							"https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png",
-						"startTime": 1507.3150000000003
-					},
-					{
-						"duration": 162.09500000000003,
-						"name":
-							"https://login.wikimedia.org/wiki/Special:CentralAutoLogin/checkLoggedIn?type=script&wikiid=enwiki&proto=https",
-						"startTime": 1609.7150000000001
-					},
-					{
-						"duration": 347.5900000000004,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=ext.tmh.OgvJsSupport%7CfullScreenApi%7Cjquery.debouncedresize%2CembedMenu%2ChoverIntent%7Cjquery.ui.touchPunch%7Cmediawiki.UtilitiesTime%2CabsoluteUrl%2Cclient%7Cmw.Api%2CEmbedPlayer%2CEmbedPlayerNative%2CEmbedTypes%2CMediaElement%2CMediaPlayer%2CMediaPlayers%2CMediaSource%2CMediaWikiPlayerSupport%2CPlayerSkinKskin%2CTextSource%2CTimedText%2CajaxProxy&skin=vector&version=0cr75i1",
-						"startTime": 1909.555
-					},
-					{
-						"duration": 346.6100000000001,
-						"name":
-							"https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery.ui.core%2Cmouse%2Cslider%2Cwidget%7Cjquery.ui.core.styles&skin=vector&version=0skt22d",
-						"startTime": 1911.755
-					},
-					{
-						"duration": 48.315000000000055,
-						"name": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
-						"startTime": 2262.75
-					},
-					{
-						"duration": 103.15999999999985,
-						"name":
-							"https://en.wikipedia.org/w/extensions/TimedMediaHandler/MwEmbedModules/EmbedPlayer/resources/skins/kskin/images/ksprite.png?3c85d",
-						"startTime": 2408.815
-					}
-				],
-				"rumSpeedIndex": 670,
-				"timeToNonBlankPaint": 670,
-				"userTimings": {
-					"marks": [
-						{ "name": "mwLoadStart", "startTime": 772.3950000000001 },
-						{ "name": "mwLoadEnd", "startTime": 2262.445 }
-					],
-					"measures": []
-				}
-			}
-		}
-	],
-	"statistics": {
-		"pageinfo": {
-			"documentHeight": {
-				"median": 41466,
-				"mean": 41466,
-				"mdev": 0,
-				"min": 41466,
-				"p10": 41466,
-				"p90": 41466,
-				"p99": 41466,
-				"max": 41466
-			},
-			"documentWidth": {
-				"median": 1184,
-				"mean": 1184,
-				"mdev": 0,
-				"min": 1184,
-				"p10": 1184,
-				"p90": 1184,
-				"p99": 1184,
-				"max": 1184
-			}
-		},
-		"timings": {
-			"firstPaint": {
-				"median": 670,
-				"mean": 682,
-				"mdev": 20.202635382268078,
-				"min": 640,
-				"p10": 640,
-				"p90": 737,
-				"p99": 737,
-				"max": 737
-			},
-			"fullyLoaded": {
-				"median": 2512,
-				"mean": 2472,
-				"mdev": 41.139090510798674,
-				"min": 2357,
-				"p10": 2357,
-				"p90": 2547,
-				"p99": 2547,
-				"max": 2547
-			},
-			"navigationTiming": {
-				"connectEnd": {
-					"median": 70,
-					"mean": 70,
-					"mdev": 2.857738033247041,
-					"min": 63,
-					"p10": 63,
-					"p90": 77,
-					"p99": 77,
-					"max": 77
-				},
-				"connectStart": {
-					"median": 2,
-					"mean": 4,
-					"mdev": 1.4142135623730951,
-					"min": 2,
-					"p10": 2,
-					"p90": 8,
-					"p99": 8,
-					"max": 8
-				},
-				"domComplete": {
-					"median": 1775,
-					"mean": 1793,
-					"mdev": 27.911566698334145,
-					"min": 1736,
-					"p10": 1736,
-					"p90": 1869,
-					"p99": 1869,
-					"max": 1869
-				},
-				"domContentLoadedEventEnd": {
-					"median": 1768,
-					"mean": 1757,
-					"mdev": 10.352133435513023,
-					"min": 1728,
-					"p10": 1728,
-					"p90": 1775,
-					"p99": 1775,
-					"max": 1775
-				},
-				"domContentLoadedEventStart": {
-					"median": 1767,
-					"mean": 1756,
-					"mdev": 10.118739491107027,
-					"min": 1728,
-					"p10": 1728,
-					"p90": 1774,
-					"p99": 1774,
-					"max": 1774
-				},
-				"domInteractive": {
-					"median": 1766,
-					"mean": 1756,
-					"mdev": 10.265909062956329,
-					"min": 1727,
-					"p10": 1727,
-					"p90": 1774,
-					"p99": 1774,
-					"max": 1774
-				},
-				"domLoading": {
-					"median": 108,
-					"mean": 107,
-					"mdev": 3.488074922742725,
-					"min": 98,
-					"p10": 98,
-					"p90": 115,
-					"p99": 115,
-					"max": 115
-				},
-				"domainLookupEnd": {
-					"median": 2,
-					"mean": 4,
-					"mdev": 1.4142135623730951,
-					"min": 2,
-					"p10": 2,
-					"p90": 8,
-					"p99": 8,
-					"max": 8
-				},
-				"domainLookupStart": {
-					"median": 1,
-					"mean": 1,
-					"mdev": 0,
-					"min": 1,
-					"p10": 1,
-					"p90": 1,
-					"p99": 1,
-					"max": 1
-				},
-				"fetchStart": {
-					"median": 1,
-					"mean": 1,
-					"mdev": 0.23570226039551584,
-					"min": 0,
-					"p10": 0,
-					"p90": 1,
-					"p99": 1,
-					"max": 1
-				},
-				"loadEventEnd": {
-					"median": 1775,
-					"mean": 1794,
-					"mdev": 27.967242743371514,
-					"min": 1737,
-					"p10": 1737,
-					"p90": 1870,
-					"p99": 1870,
-					"max": 1870
-				},
-				"loadEventStart": {
-					"median": 1775,
-					"mean": 1793,
-					"mdev": 27.911566698334145,
-					"min": 1736,
-					"p10": 1736,
-					"p90": 1869,
-					"p99": 1869,
-					"max": 1869
-				},
-				"navigationStart": {
-					"median": 0,
-					"mean": 0,
-					"mdev": 0,
-					"min": 0,
-					"p10": 0,
-					"p90": 0,
-					"p99": 0,
-					"max": 0
-				},
-				"requestStart": {
-					"median": 73,
-					"mean": 72,
-					"mdev": 2.8963578661637945,
-					"min": 64,
-					"p10": 64,
-					"p90": 78,
-					"p99": 78,
-					"max": 78
-				},
-				"responseEnd": {
-					"median": 857,
-					"mean": 889,
-					"mdev": 39.38767432698825,
-					"min": 812,
-					"p10": 812,
-					"p90": 997,
-					"p99": 997,
-					"max": 997
-				},
-				"responseStart": {
-					"median": 101,
-					"mean": 100,
-					"mdev": 2.6770630673681683,
-					"min": 93,
-					"p10": 93,
-					"p90": 106,
-					"p99": 106,
-					"max": 106
-				},
-				"secureConnectionStart": {
-					"median": 37,
-					"mean": 35,
-					"mdev": 1.6499158227686108,
-					"min": 30,
-					"p10": 30,
-					"p90": 37,
-					"p99": 37,
-					"max": 37
-				}
-			},
-			"pageTimings": {
-				"backEndTime": {
-					"median": 101,
-					"mean": 100,
-					"mdev": 2.6770630673681683,
-					"min": 93,
-					"p10": 93,
-					"p90": 106,
-					"p99": 106,
-					"max": 106
-				},
-				"domContentLoadedTime": {
-					"median": 1767,
-					"mean": 1756,
-					"mdev": 10.118739491107027,
-					"min": 1728,
-					"p10": 1728,
-					"p90": 1774,
-					"p99": 1774,
-					"max": 1774
-				},
-				"domInteractiveTime": {
-					"median": 1766,
-					"mean": 1756,
-					"mdev": 10.265909062956329,
-					"min": 1727,
-					"p10": 1727,
-					"p90": 1774,
-					"p99": 1774,
-					"max": 1774
-				},
-				"domainLookupTime": {
-					"median": 1,
-					"mean": 3,
-					"mdev": 1.4142135623730951,
-					"min": 1,
-					"p10": 1,
-					"p90": 7,
-					"p99": 7,
-					"max": 7
-				},
-				"frontEndTime": {
-					"median": 879,
-					"mean": 905,
-					"mdev": 20.673386004447575,
-					"min": 872,
-					"p10": 872,
-					"p90": 963,
-					"p99": 963,
-					"max": 963
-				},
-				"pageDownloadTime": {
-					"median": 756,
-					"mean": 789,
-					"mdev": 36.960188792206615,
-					"min": 719,
-					"p10": 719,
-					"p90": 891,
-					"p99": 891,
-					"max": 891
-				},
-				"pageLoadTime": {
-					"median": 1775,
-					"mean": 1793,
-					"mdev": 27.911566698334145,
-					"min": 1736,
-					"p10": 1736,
-					"p90": 1869,
-					"p99": 1869,
-					"max": 1869
-				},
-				"redirectionTime": {
-					"median": 1,
-					"mean": 1,
-					"mdev": 0.23570226039551584,
-					"min": 0,
-					"p10": 0,
-					"p90": 1,
-					"p99": 1,
-					"max": 1
-				},
-				"serverConnectionTime": {
-					"median": 62,
-					"mean": 66,
-					"mdev": 3.1885210782848317,
-					"min": 61,
-					"p10": 61,
-					"p90": 75,
-					"p99": 75,
-					"max": 75
-				},
-				"serverResponseTime": {
-					"median": 784,
-					"mean": 817,
-					"mdev": 36.803532439155894,
-					"min": 748,
-					"p10": 748,
-					"p90": 919,
-					"p99": 919,
-					"max": 919
-				}
-			},
-			"paintTiming": {
-				"first-contentful-paint": {
-					"median": 670,
-					"mean": 682,
-					"mdev": 20.201510497705538,
-					"min": 640,
-					"p10": 640,
-					"p90": 737,
-					"p99": 737,
-					"max": 737
-				},
-				"first-paint": {
-					"median": 670,
-					"mean": 682,
-					"mdev": 20.202635382268078,
-					"min": 640,
-					"p10": 640,
-					"p90": 737,
-					"p99": 737,
-					"max": 737
-				}
-			},
-			"rumSpeedIndex": {
-				"median": 670,
-				"mean": 682,
-				"mdev": 20.27450506314656,
-				"min": 640,
-				"p10": 640,
-				"p90": 737,
-				"p99": 737,
-				"max": 737
-			},
-			"timeToNonBlankPaint": {
-				"median": 670,
-				"mean": 682,
-				"mdev": 20.27450506314656,
-				"min": 640,
-				"p10": 640,
-				"p90": 737,
-				"p99": 737,
-				"max": 737
-			},
-			"userTimings": {
-				"marks": {
-					"mwLoadStart": {
-						"median": 772,
-						"mean": 782,
-						"mdev": 12.58517133375666,
-						"min": 757,
-						"p10": 757,
-						"p90": 816,
-						"p99": 816,
-						"max": 816
-					},
-					"mwLoadEnd": {
-						"median": 2262,
-						"mean": 2224,
-						"mdev": 36.51409455798062,
-						"min": 2121,
-						"p10": 2121,
-						"p90": 2287,
-						"p99": 2287,
-						"max": 2287
-					}
-				}
-			}
-		},
-		"visualMetrics": {
-			"SpeedIndex": {
-				"median": 867,
-				"mean": 883,
-				"mdev": 26.50890835591353,
-				"min": 827,
-				"p10": 827,
-				"p90": 954,
-				"p99": 954,
-				"max": 954
-			},
-			"PerceptualSpeedIndex": {
-				"median": 902,
-				"mean": 916,
-				"mdev": 25.16721853699548,
-				"min": 862,
-				"p10": 862,
-				"p90": 983,
-				"p99": 983,
-				"max": 983
-			},
-			"FirstVisualChange": {
-				"median": 800,
-				"mean": 822,
-				"mdev": 28.273466163328628,
-				"min": 767,
-				"p10": 767,
-				"p90": 900,
-				"p99": 900,
-				"max": 900
-			},
-			"LastVisualChange": {
-				"median": 1767,
-				"mean": 1800,
-				"mdev": 23.570226039551585,
-				"min": 1767,
-				"p10": 1767,
-				"p90": 1867,
-				"p99": 1867,
-				"max": 1867
-			},
-			"VisualComplete85": {
-				"median": 933,
-				"mean": 900,
-				"mdev": 48.971079900964675,
-				"min": 767,
-				"p10": 767,
-				"p90": 1000,
-				"p99": 1000,
-				"max": 1000
-			},
-			"VisualComplete95": {
-				"median": 933,
-				"mean": 933,
-				"mdev": 27.148767109310057,
-				"min": 867,
-				"p10": 867,
-				"p90": 1000,
-				"p99": 1000,
-				"max": 1000
-			},
-			"VisualComplete99": {
-				"median": 1767,
-				"mean": 1800,
-				"mdev": 23.570226039551585,
-				"min": 1767,
-				"p10": 1767,
-				"p90": 1867,
-				"p99": 1867,
-				"max": 1867
-			}
-		},
-		"cpu": {
-			"categories": {
-				"Rendering": {
-					"median": 1324,
-					"mean": 1296,
-					"mdev": 26.379476950216258,
-					"min": 1222,
-					"p10": 1222,
-					"p90": 1342,
-					"p99": 1342,
-					"max": 1342
-				},
-				"Scripting": {
-					"median": 353,
-					"mean": 371,
-					"mdev": 21.489089816961933,
-					"min": 330,
-					"p10": 330,
-					"p90": 430,
-					"p99": 430,
-					"max": 430
-				},
-				"Loading": {
-					"median": 91,
-					"mean": 97,
-					"mdev": 9.261961854069444,
-					"min": 78,
-					"p10": 78,
-					"p90": 122,
-					"p99": 122,
-					"max": 122
-				},
-				"Painting": {
-					"median": 37,
-					"mean": 36,
-					"mdev": 1.7533568441301253,
-					"min": 31,
-					"p10": 31,
-					"p90": 40,
-					"p99": 40,
-					"max": 40
-				}
-			},
-			"activity": {
-				"Layout": {
-					"median": 692,
-					"mean": 705,
-					"mdev": 12.272527614872141,
-					"min": 684,
-					"p10": 684,
-					"p90": 740,
-					"p99": 740,
-					"max": 740
-				},
-				"RecalculateStyle": {
-					"median": 303,
-					"mean": 309,
-					"mdev": 17.738223910381794,
-					"min": 270,
-					"p10": 270,
-					"p90": 356,
-					"p99": 356,
-					"max": 356
-				},
-				"UpdateLayerTree": {
-					"median": 278,
-					"mean": 277,
-					"mdev": 5.671950492225562,
-					"min": 263,
-					"p10": 263,
-					"p90": 290,
-					"p99": 290,
-					"max": 290
-				},
-				"EvaluateScript": {
-					"median": 115,
-					"mean": 113,
-					"mdev": 2.7722158407843565,
-					"min": 106,
-					"p10": 106,
-					"p90": 119,
-					"p99": 119,
-					"max": 119
-				},
-				"AnimationFrameFired": {
-					"median": 75,
-					"mean": 80,
-					"mdev": 8.024777902809328,
-					"min": 63,
-					"p10": 63,
-					"p90": 101,
-					"p99": 101,
-					"max": 101
-				},
-				"DOMGC": {
-					"median": 91,
-					"mean": 88,
-					"mdev": 4.21636160290616,
-					"min": 76,
-					"p10": 76,
-					"p90": 96,
-					"p99": 96,
-					"max": 96
-				},
-				"ParseHTML": {
-					"median": 86,
-					"mean": 93,
-					"mdev": 9.195039649950754,
-					"min": 74,
-					"p10": 74,
-					"p90": 118,
-					"p99": 118,
-					"max": 118
-				},
-				"FireIdleCallback": {
-					"median": 34,
-					"mean": 42,
-					"mdev": 6.169652736286125,
-					"min": 33,
-					"p10": 33,
-					"p90": 60,
-					"p99": 60,
-					"max": 60
-				},
-				"Paint": {
-					"median": 37,
-					"mean": 36,
-					"mdev": 1.7533568441301253,
-					"min": 31,
-					"p10": 31,
-					"p90": 40,
-					"p99": 40,
-					"max": 40
-				},
-				"CompileScript": {
-					"median": 19,
-					"mean": 19,
-					"mdev": 2.2714362686268252,
-					"min": 14,
-					"p10": 14,
-					"p90": 25,
-					"p99": 25,
-					"max": 25
-				},
-				"MinorGC": {
-					"median": 22,
-					"mean": 22,
-					"mdev": 0.9940895611243462,
-					"min": 19,
-					"p10": 19,
-					"p90": 24,
-					"p99": 24,
-					"max": 24
-				},
-				"MajorGC": {
-					"median": 7,
-					"mean": 7,
-					"mdev": 1.3960201366835998,
-					"min": 3,
-					"p10": 3,
-					"p90": 9,
-					"p99": 9,
-					"max": 9
-				},
-				"ParseStylesheet": {
-					"median": 4,
-					"mean": 4,
-					"mdev": 0.3100119173956521,
-					"min": 3,
-					"p10": 3,
-					"p90": 5,
-					"p99": 5,
-					"max": 5
-				},
-				"HitTest": {
-					"median": 4,
-					"mean": 4,
-					"mdev": 0.39336814796952535,
-					"min": 4,
-					"p10": 4,
-					"p90": 5,
-					"p99": 5,
-					"max": 5
-				}
-			}
-		}
-	},
-	"visualMetrics": [
-		{
-			"SpeedIndex": 954,
-			"PerceptualSpeedIndex": 983,
-			"FirstVisualChange": 900,
-			"LastVisualChange": 1767,
-			"VisualProgress":
-				"0=0%, 900=84%, 1000=95%, 1033=95%, 1067=95%, 1133=95%, 1767=100%",
-			"VisualComplete85": 1000,
-			"VisualComplete95": 1000,
-			"VisualComplete99": 1767
-		},
-		{
-			"SpeedIndex": 827,
-			"PerceptualSpeedIndex": 862,
-			"FirstVisualChange": 767,
-			"LastVisualChange": 1767,
-			"VisualProgress":
-				"0=0%, 767=85%, 867=95%, 900=95%, 933=95%, 1100=95%, 1700=95%, 1767=100%",
-			"VisualComplete85": 767,
-			"VisualComplete95": 867,
-			"VisualComplete99": 1767
-		},
-		{
-			"SpeedIndex": 867,
-			"PerceptualSpeedIndex": 902,
-			"FirstVisualChange": 800,
-			"LastVisualChange": 1867,
-			"VisualProgress":
-				"0=0%, 800=84%, 933=95%, 967=95%, 1067=95%, 1300=95%, 1567=95%, 1867=100%",
-			"VisualComplete85": 933,
-			"VisualComplete95": 933,
-			"VisualComplete99": 1867
-		}
-	],
-	"cpu": [
-		{
-			"activity": {
-				"Layout": 691.75800000038,
-				"RecalculateStyle": 355.8579999995418,
-				"UpdateLayerTree": 290.2830000005197,
-				"EvaluateScript": 119.35100000048988,
-				"AnimationFrameFired": 101.37799999979325,
-				"DOMGC": 91.13000000012107,
-				"ParseHTML": 86.0390000010375,
-				"FireIdleCallback": 59.54499999945983,
-				"Paint": 39.74400000041351,
-				"CompileScript": 25.014000000199303,
-				"MinorGC": 24.270000000018626,
-				"MajorGC": 9.493999999947846,
-				"ParseStylesheet": 4.634000000311062,
-				"HitTest": 3.610000000335276
-			},
-			"category": {
-				"Rendering": 1341.5090000007767,
-				"Scripting": 430.1820000000298,
-				"Loading": 90.67300000134856,
-				"Painting": 39.74400000041351
-			}
-		},
-		{
-			"activity": {
-				"Layout": 684.2789999991655,
-				"RecalculateStyle": 269.7430000004824,
-				"UpdateLayerTree": 262.55600000172853,
-				"ParseHTML": 117.90899999975227,
-				"EvaluateScript": 115.05300000030547,
-				"DOMGC": 76.3230000003241,
-				"AnimationFrameFired": 62.99999999953434,
-				"FireIdleCallback": 34.18100000033155,
-				"Paint": 31.243999999249354,
-				"MinorGC": 19.40100000007078,
-				"CompileScript": 18.845999999903142,
-				"HitTest": 5.34099999954924,
-				"ParseStylesheet": 3.797000000020489,
-				"MajorGC": 2.814000000245869
-			},
-			"category": {
-				"Rendering": 1221.9190000009257,
-				"Scripting": 329.61800000071526,
-				"Loading": 121.70599999977276,
-				"Painting": 31.243999999249354
-			}
-		},
-		{
-			"activity": {
-				"Layout": 739.6820000000298,
-				"RecalculateStyle": 302.71299999859184,
-				"UpdateLayerTree": 277.9970000020694,
-				"EvaluateScript": 106.04499999945983,
-				"DOMGC": 96.19900000025518,
-				"AnimationFrameFired": 74.8070000000298,
-				"ParseHTML": 74.40400000009686,
-				"Paint": 36.56599999824539,
-				"FireIdleCallback": 32.627000000327826,
-				"MinorGC": 21.92200000025332,
-				"CompileScript": 13.908999999985099,
-				"MajorGC": 7.423999999882653,
-				"HitTest": 3.742000000551343,
-				"ParseStylesheet": 3.118000000016764
-			},
-			"category": {
-				"Rendering": 1324.1340000012424,
-				"Scripting": 352.9330000001937,
-				"Loading": 77.52200000011362,
-				"Painting": 36.56599999824539
-			}
-		}
-	],
-	"timestamps": [
-		"2018-01-25T10:58:15+00:00",
-		"2018-01-25T10:58:33+00:00",
-		"2018-01-25T10:58:50+00:00"
-	]
-}
+[{
+    "info": {
+        "browsertime": {
+            "version": "4.0.1"
+        },
+        "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+        "timestamp": "2019-01-22T07:57:48+00:00",
+        "connectivity": {
+            "engine": "external",
+            "profile": "native"
+        }
+    },
+    "files": {
+        "video": ["pages/en.wikipedia.org/wiki/Barack_Obama/data/video/1.mp4", "pages/en.wikipedia.org/wiki/Barack_Obama/data/video/2.mp4", "pages/en.wikipedia.org/wiki/Barack_Obama/data/video/3.mp4"],
+        "screenshot": [],
+        "timeline": ["pages/en.wikipedia.org/wiki/Barack_Obama/data/trace-1.json.gz", "pages/en.wikipedia.org/wiki/Barack_Obama/data/trace-2.json.gz", "pages/en.wikipedia.org/wiki/Barack_Obama/data/trace-3.json.gz"],
+        "consoleLog": [],
+        "netLog": [],
+        "perfLog": []
+    },
+    "timestamps": ["2019-01-22T07:57:25+00:00", "2019-01-22T07:57:50+00:00", "2019-01-22T07:58:10+00:00"],
+    "browserScripts": [{
+        "browser": {
+            "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36",
+            "windowSize": "1365x695"
+        },
+        "pageinfo": {
+            "documentHeight": 37470,
+            "documentSize": {
+                "decodedBodySize": 1391759,
+                "encodedBodySize": 250398,
+                "transferSize": 251666
+            },
+            "documentTitle": "Barack Obama - Wikipedia",
+            "documentWidth": 1350,
+            "nextHopProtocol": "h2",
+            "responsive": true,
+            "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+            "visualElements": {
+                "heroes": [{
+                    "filename": "220px-President_Barack_Obama.jpg",
+                    "height": 275,
+                    "name": "LargestImage",
+                    "width": 220,
+                    "x": 1081,
+                    "y": 248
+                }, {
+                    "height": 38,
+                    "name": "Heading",
+                    "width": 1125,
+                    "x": 201,
+                    "y": 100
+                }],
+                "viewport": {
+                    "height": 695,
+                    "width": 1350
+                }
+            }
+        },
+        "timings": {
+            "firstPaint": 971,
+            "navigationTiming": {
+                "connectStart": 18,
+                "domComplete": 3214,
+                "domContentLoadedEventEnd": 2632,
+                "domContentLoadedEventStart": 2622,
+                "domInteractive": 2622,
+                "domainLookupEnd": 18,
+                "domainLookupStart": 18,
+                "duration": 3216,
+                "fetchStart": 9,
+                "loadEventEnd": 3216,
+                "loadEventStart": 3214,
+                "redirectEnd": 0,
+                "redirectStart": 0,
+                "requestStart": 87,
+                "responseEnd": 1435,
+                "responseStart": 117,
+                "secureConnectionStart": 47,
+                "startTime": 0,
+                "unloadEventEnd": 0,
+                "unloadEventStart": 0,
+                "workerStart": 0
+            },
+            "pageTimings": {
+                "backEndTime": 117,
+                "domContentLoadedTime": 2622,
+                "domInteractiveTime": 2622,
+                "domainLookupTime": 0,
+                "frontEndTime": 1779,
+                "pageDownloadTime": 1318,
+                "pageLoadTime": 3214,
+                "redirectionTime": 0,
+                "serverConnectionTime": 68,
+                "serverResponseTime": 1348
+            },
+            "paintTiming": {
+                "first-contentful-paint": 971,
+                "first-paint": 971
+            },
+            "rumSpeedIndex": 971,
+            "serverTimings": [{
+                "description": "hit-front",
+                "duration": 0,
+                "name": "cache"
+            }],
+            "userTimings": {
+                "marks": [{
+                    "name": "mwStartup",
+                    "startTime": 1162.2000000061234
+                }],
+                "measures": []
+            }
+        }
+    }, {
+        "browser": {
+            "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36",
+            "windowSize": "1365x695"
+        },
+        "pageinfo": {
+            "documentHeight": 37470,
+            "documentSize": {
+                "decodedBodySize": 1391759,
+                "encodedBodySize": 250398,
+                "transferSize": 251666
+            },
+            "documentTitle": "Barack Obama - Wikipedia",
+            "documentWidth": 1350,
+            "nextHopProtocol": "h2",
+            "responsive": true,
+            "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+            "visualElements": {
+                "heroes": [{
+                    "filename": "220px-President_Barack_Obama.jpg",
+                    "height": 275,
+                    "name": "LargestImage",
+                    "width": 220,
+                    "x": 1081,
+                    "y": 248
+                }, {
+                    "height": 38,
+                    "name": "Heading",
+                    "width": 1125,
+                    "x": 201,
+                    "y": 100
+                }],
+                "viewport": {
+                    "height": 695,
+                    "width": 1350
+                }
+            }
+        },
+        "timings": {
+            "firstPaint": 1083,
+            "navigationTiming": {
+                "connectStart": 13,
+                "domComplete": 3353,
+                "domContentLoadedEventEnd": 2674,
+                "domContentLoadedEventStart": 2672,
+                "domInteractive": 2671,
+                "domainLookupEnd": 13,
+                "domainLookupStart": 12,
+                "duration": 3354,
+                "fetchStart": 6,
+                "loadEventEnd": 3354,
+                "loadEventStart": 3353,
+                "redirectEnd": 0,
+                "redirectStart": 0,
+                "requestStart": 77,
+                "responseEnd": 1374,
+                "responseStart": 107,
+                "secureConnectionStart": 42,
+                "startTime": 0,
+                "unloadEventEnd": 0,
+                "unloadEventStart": 0,
+                "workerStart": 0
+            },
+            "pageTimings": {
+                "backEndTime": 107,
+                "domContentLoadedTime": 2672,
+                "domInteractiveTime": 2671,
+                "domainLookupTime": 0,
+                "frontEndTime": 1979,
+                "pageDownloadTime": 1266,
+                "pageLoadTime": 3353,
+                "redirectionTime": 0,
+                "serverConnectionTime": 64,
+                "serverResponseTime": 1297
+            },
+            "paintTiming": {
+                "first-contentful-paint": 1083,
+                "first-paint": 1083
+            },
+            "rumSpeedIndex": 1083,
+            "serverTimings": [{
+                "description": "hit-front",
+                "duration": 0,
+                "name": "cache"
+            }],
+            "userTimings": {
+                "marks": [{
+                    "name": "mwStartup",
+                    "startTime": 1057.3000000003958
+                }],
+                "measures": []
+            }
+        }
+    }, {
+        "browser": {
+            "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36",
+            "windowSize": "1365x695"
+        },
+        "pageinfo": {
+            "documentHeight": 37470,
+            "documentSize": {
+                "decodedBodySize": 1391759,
+                "encodedBodySize": 250398,
+                "transferSize": 251666
+            },
+            "documentTitle": "Barack Obama - Wikipedia",
+            "documentWidth": 1350,
+            "nextHopProtocol": "h2",
+            "responsive": true,
+            "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+            "visualElements": {
+                "heroes": [{
+                    "filename": "220px-President_Barack_Obama.jpg",
+                    "height": 275,
+                    "name": "LargestImage",
+                    "width": 220,
+                    "x": 1081,
+                    "y": 248
+                }, {
+                    "height": 38,
+                    "name": "Heading",
+                    "width": 1125,
+                    "x": 201,
+                    "y": 100
+                }],
+                "viewport": {
+                    "height": 695,
+                    "width": 1350
+                }
+            }
+        },
+        "timings": {
+            "firstPaint": 567,
+            "navigationTiming": {
+                "connectStart": 48,
+                "domComplete": 2953,
+                "domContentLoadedEventEnd": 2928,
+                "domContentLoadedEventStart": 2919,
+                "domInteractive": 2918,
+                "domainLookupEnd": 48,
+                "domainLookupStart": 48,
+                "duration": 2957,
+                "fetchStart": 8,
+                "loadEventEnd": 2957,
+                "loadEventStart": 2953,
+                "redirectEnd": 0,
+                "redirectStart": 0,
+                "requestStart": 113,
+                "responseEnd": 1558,
+                "responseStart": 144,
+                "secureConnectionStart": 77,
+                "startTime": 0,
+                "unloadEventEnd": 0,
+                "unloadEventStart": 0,
+                "workerStart": 0
+            },
+            "pageTimings": {
+                "backEndTime": 144,
+                "domContentLoadedTime": 2919,
+                "domInteractiveTime": 2918,
+                "domainLookupTime": 0,
+                "frontEndTime": 1395,
+                "pageDownloadTime": 1413,
+                "pageLoadTime": 2953,
+                "redirectionTime": 0,
+                "serverConnectionTime": 65,
+                "serverResponseTime": 1444
+            },
+            "paintTiming": {
+                "first-contentful-paint": 567,
+                "first-paint": 567
+            },
+            "rumSpeedIndex": 567,
+            "serverTimings": [{
+                "description": "hit-front",
+                "duration": 0,
+                "name": "cache"
+            }],
+            "userTimings": {
+                "marks": [{
+                    "name": "mwStartup",
+                    "startTime": 740.29999999766
+                }],
+                "measures": []
+            }
+        }
+    }],
+    "visualMetrics": [{
+        "SpeedIndex": 1079,
+        "FirstVisualChange": 967,
+        "LastVisualChange": 2500,
+        "PerceptualSpeedIndex": 1138,
+        "VisualProgress": "0=0%, 967=83%, 1000=83%, 1267=95%, 2200=95%, 2433=95%, 2500=100%",
+        "VisualReadiness": 1533,
+        "VisualComplete85": 1267,
+        "VisualComplete95": 1267,
+        "VisualComplete99": 2500
+    }, {
+        "SpeedIndex": 1223,
+        "FirstVisualChange": 1167,
+        "LastVisualChange": 2300,
+        "PerceptualSpeedIndex": 1270,
+        "VisualProgress": "0=0%, 1167=95%, 1200=95%, 1234=95%, 1267=95%, 1300=95%, 1434=95%, 2300=100%",
+        "VisualReadiness": 1133,
+        "VisualComplete85": 1167,
+        "VisualComplete95": 1167,
+        "VisualComplete99": 2300
+    }, {
+        "SpeedIndex": 711,
+        "FirstVisualChange": 567,
+        "LastVisualChange": 2933,
+        "PerceptualSpeedIndex": 800,
+        "VisualProgress": "0=0%, 567=83%, 600=83%, 800=95%, 967=95%, 1000=95%, 1067=95%, 1167=95%, 1233=95%, 1800=95%, 1867=95%, 1900=95%, 1933=95%, 1967=95%, 2333=95%, 2900=99%, 2933=100%",
+        "VisualReadiness": 2366,
+        "VisualComplete85": 800,
+        "VisualComplete95": 800,
+        "VisualComplete99": 2900
+    }],
+    "cpu": [{
+        "categories": {
+            "Scripting": 1603.144,
+            "Loading": 183.984,
+            "Rendering": 1674.825,
+            "Painting": 75.422,
+            "Other": 1.242
+        },
+        "events": {
+            "EventDispatch": 8.055,
+            "ParseHTML": 181.765,
+            "UpdateLayoutTree": 585.546,
+            "Layout": 872.957,
+            "EvaluateScript": 814.894,
+            "v8.compile": 16.523,
+            "UpdateLayerTree": 212.742,
+            "HitTest": 3.58,
+            "ParseAuthorStyleSheet": 2.104,
+            "ResourceChangePriority": 0.115,
+            "Paint": 47.287,
+            "CompositeLayers": 28.049,
+            "MinorGC": 51.223,
+            "FireIdleCallback": 7.278,
+            "FunctionCall": 579.4,
+            "BlinkGC.AtomicPhase": 106.818,
+            "FireAnimationFrame": 0.937,
+            "TimerFire": 13.304,
+            "Decode Image": 0.086,
+            "MajorGC": 4.712,
+            "ScriptWrappableMarkingVisitor::performLazyCleanup": 1.242
+        }
+    }, {
+        "categories": {
+            "Scripting": 1503.552,
+            "Loading": 207.053,
+            "Rendering": 1590.3,
+            "Painting": 81.272,
+            "Other": 1.073
+        },
+        "events": {
+            "EventDispatch": 5.614,
+            "ParseHTML": 195.317,
+            "UpdateLayoutTree": 572.742,
+            "Layout": 790.879,
+            "EvaluateScript": 722.68,
+            "v8.compile": 12.888,
+            "UpdateLayerTree": 223.2,
+            "HitTest": 3.479,
+            "ParseAuthorStyleSheet": 11.654,
+            "ResourceChangePriority": 0.082,
+            "Paint": 56.86,
+            "CompositeLayers": 24.318,
+            "MinorGC": 32.238,
+            "FireIdleCallback": 4.017,
+            "FunctionCall": 615.622,
+            "BlinkGC.AtomicPhase": 78.51,
+            "FireAnimationFrame": 1.343,
+            "TimerFire": 11.364,
+            "Decode Image": 0.094,
+            "MajorGC": 19.276,
+            "ScriptWrappableMarkingVisitor::performLazyCleanup": 1.073
+        }
+    }, {
+        "categories": {
+            "Scripting": 1498.44,
+            "Loading": 189.614,
+            "Rendering": 1699.987,
+            "Painting": 118.801
+        },
+        "events": {
+            "EventDispatch": 4.955,
+            "ParseHTML": 183.27,
+            "EvaluateScript": 673.479,
+            "v8.compile": 16.765,
+            "UpdateLayoutTree": 531.647,
+            "Layout": 908.304,
+            "ResourceChangePriority": 0.133,
+            "UpdateLayerTree": 256.635,
+            "HitTest": 3.401,
+            "ParseAuthorStyleSheet": 6.211,
+            "Paint": 66.414,
+            "CompositeLayers": 52.052,
+            "MinorGC": 41.673,
+            "FireIdleCallback": 2.29,
+            "FunctionCall": 663.175,
+            "FireAnimationFrame": 1.181,
+            "BlinkGC.AtomicPhase": 64.318,
+            "TimerFire": 15.779,
+            "Decode Image": 0.335,
+            "MajorGC": 14.825
+        }
+    }],
+    "fullyLoaded": [3596.450927734375, 3652.98193359375, 3793.508056640625],
+    "errors": [
+        [],
+        [],
+        []
+    ],
+    "statistics": {
+        "pageinfo": {
+            "documentHeight": {
+                "median": 37470,
+                "mean": 37470,
+                "mdev": 0,
+                "stddev": 0,
+                "min": 37470,
+                "p10": 37470,
+                "p90": 37470,
+                "p99": 37470,
+                "max": 37470
+            },
+            "documentSize": {
+                "decodedBodySize": {
+                    "median": 1391759,
+                    "mean": 1391759,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 1391759,
+                    "p10": 1391759,
+                    "p90": 1391759,
+                    "p99": 1391759,
+                    "max": 1391759
+                },
+                "encodedBodySize": {
+                    "median": 250398,
+                    "mean": 250398,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 250398,
+                    "p10": 250398,
+                    "p90": 250398,
+                    "p99": 250398,
+                    "max": 250398
+                },
+                "transferSize": {
+                    "median": 251666,
+                    "mean": 251666,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 251666,
+                    "p10": 251666,
+                    "p90": 251666,
+                    "p99": 251666,
+                    "max": 251666
+                }
+            },
+            "documentWidth": {
+                "median": 1350,
+                "mean": 1350,
+                "mdev": 0,
+                "stddev": 0,
+                "min": 1350,
+                "p10": 1350,
+                "p90": 1350,
+                "p99": 1350,
+                "max": 1350
+            },
+            "visualElements": {
+                "heroes": [{
+                    "height": {
+                        "median": 275,
+                        "mean": 275,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 275,
+                        "p10": 275,
+                        "p90": 275,
+                        "p99": 275,
+                        "max": 275
+                    },
+                    "width": {
+                        "median": 220,
+                        "mean": 220,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 220,
+                        "p10": 220,
+                        "p90": 220,
+                        "p99": 220,
+                        "max": 220
+                    },
+                    "x": {
+                        "median": 1081,
+                        "mean": 1081,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 1081,
+                        "p10": 1081,
+                        "p90": 1081,
+                        "p99": 1081,
+                        "max": 1081
+                    },
+                    "y": {
+                        "median": 248,
+                        "mean": 248,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 248,
+                        "p10": 248,
+                        "p90": 248,
+                        "p99": 248,
+                        "max": 248
+                    }
+                }, {
+                    "height": {
+                        "median": 38,
+                        "mean": 38,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 38,
+                        "p10": 38,
+                        "p90": 38,
+                        "p99": 38,
+                        "max": 38
+                    },
+                    "width": {
+                        "median": 1125,
+                        "mean": 1125,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 1125,
+                        "p10": 1125,
+                        "p90": 1125,
+                        "p99": 1125,
+                        "max": 1125
+                    },
+                    "x": {
+                        "median": 201,
+                        "mean": 201,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 201,
+                        "p10": 201,
+                        "p90": 201,
+                        "p99": 201,
+                        "max": 201
+                    },
+                    "y": {
+                        "median": 100,
+                        "mean": 100,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 100,
+                        "p10": 100,
+                        "p90": 100,
+                        "p99": 100,
+                        "max": 100
+                    }
+                }],
+                "viewport": {
+                    "height": {
+                        "median": 695,
+                        "mean": 695,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 695,
+                        "p10": 695,
+                        "p90": 695,
+                        "p99": 695,
+                        "max": 695
+                    },
+                    "width": {
+                        "median": 1350,
+                        "mean": 1350,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 1350,
+                        "p10": 1350,
+                        "p90": 1350,
+                        "p99": 1350,
+                        "max": 1350
+                    }
+                }
+            }
+        },
+        "timings": {
+            "firstPaint": {
+                "median": 971,
+                "mean": 874,
+                "mdev": 127.9491,
+                "stddev": 222,
+                "min": 567,
+                "p10": 567,
+                "p90": 1083,
+                "p99": 1083,
+                "max": 1083
+            },
+            "navigationTiming": {
+                "connectStart": {
+                    "median": 18,
+                    "mean": 26,
+                    "mdev": 8.9235,
+                    "stddev": 15,
+                    "min": 13,
+                    "p10": 13,
+                    "p90": 48,
+                    "p99": 48,
+                    "max": 48
+                },
+                "domComplete": {
+                    "median": 3214,
+                    "mean": 3173,
+                    "mdev": 95.7315,
+                    "stddev": 166,
+                    "min": 2953,
+                    "p10": 2953,
+                    "p90": 3353,
+                    "p99": 3353,
+                    "max": 3353
+                },
+                "domContentLoadedEventEnd": {
+                    "median": 2674,
+                    "mean": 2745,
+                    "mdev": 75.4974,
+                    "stddev": 131,
+                    "min": 2632,
+                    "p10": 2632,
+                    "p90": 2928,
+                    "p99": 2928,
+                    "max": 2928
+                },
+                "domContentLoadedEventStart": {
+                    "median": 2672,
+                    "mean": 2738,
+                    "mdev": 74.9612,
+                    "stddev": 130,
+                    "min": 2622,
+                    "p10": 2622,
+                    "p90": 2919,
+                    "p99": 2919,
+                    "max": 2919
+                },
+                "domInteractive": {
+                    "median": 2671,
+                    "mean": 2737,
+                    "mdev": 74.7901,
+                    "stddev": 130,
+                    "min": 2622,
+                    "p10": 2622,
+                    "p90": 2918,
+                    "p99": 2918,
+                    "max": 2918
+                },
+                "domainLookupEnd": {
+                    "median": 18,
+                    "mean": 26,
+                    "mdev": 8.9235,
+                    "stddev": 15,
+                    "min": 13,
+                    "p10": 13,
+                    "p90": 48,
+                    "p99": 48,
+                    "max": 48
+                },
+                "domainLookupStart": {
+                    "median": 18,
+                    "mean": 26,
+                    "mdev": 9.0921,
+                    "stddev": 16,
+                    "min": 12,
+                    "p10": 12,
+                    "p90": 48,
+                    "p99": 48,
+                    "max": 48
+                },
+                "duration": {
+                    "median": 3216,
+                    "mean": 3176,
+                    "mdev": 95.0115,
+                    "stddev": 165,
+                    "min": 2957,
+                    "p10": 2957,
+                    "p90": 3354,
+                    "p99": 3354,
+                    "max": 3354
+                },
+                "fetchStart": {
+                    "median": 8,
+                    "mean": 8,
+                    "mdev": 0.7201,
+                    "stddev": 1,
+                    "min": 6,
+                    "p10": 6,
+                    "p90": 9,
+                    "p99": 9,
+                    "max": 9
+                },
+                "loadEventEnd": {
+                    "median": 3216,
+                    "mean": 3176,
+                    "mdev": 95.0115,
+                    "stddev": 165,
+                    "min": 2957,
+                    "p10": 2957,
+                    "p90": 3354,
+                    "p99": 3354,
+                    "max": 3354
+                },
+                "loadEventStart": {
+                    "median": 3214,
+                    "mean": 3173,
+                    "mdev": 95.7315,
+                    "stddev": 166,
+                    "min": 2953,
+                    "p10": 2953,
+                    "p90": 3353,
+                    "p99": 3353,
+                    "max": 3353
+                },
+                "redirectEnd": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "redirectStart": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "requestStart": {
+                    "median": 87,
+                    "mean": 92,
+                    "mdev": 8.7602,
+                    "stddev": 15,
+                    "min": 77,
+                    "p10": 77,
+                    "p90": 113,
+                    "p99": 113,
+                    "max": 113
+                },
+                "responseEnd": {
+                    "median": 1435,
+                    "mean": 1456,
+                    "mdev": 44.1823,
+                    "stddev": 77,
+                    "min": 1374,
+                    "p10": 1374,
+                    "p90": 1558,
+                    "p99": 1558,
+                    "max": 1558
+                },
+                "responseStart": {
+                    "median": 117,
+                    "mean": 123,
+                    "mdev": 9.0226,
+                    "stddev": 16,
+                    "min": 107,
+                    "p10": 107,
+                    "p90": 144,
+                    "p99": 144,
+                    "max": 144
+                },
+                "secureConnectionStart": {
+                    "median": 47,
+                    "mean": 55,
+                    "mdev": 8.9235,
+                    "stddev": 15,
+                    "min": 42,
+                    "p10": 42,
+                    "p90": 77,
+                    "p99": 77,
+                    "max": 77
+                },
+                "startTime": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "unloadEventEnd": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "unloadEventStart": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "workerStart": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                }
+            },
+            "pageTimings": {
+                "backEndTime": {
+                    "median": 117,
+                    "mean": 123,
+                    "mdev": 9.0226,
+                    "stddev": 16,
+                    "min": 107,
+                    "p10": 107,
+                    "p90": 144,
+                    "p99": 144,
+                    "max": 144
+                },
+                "domContentLoadedTime": {
+                    "median": 2672,
+                    "mean": 2738,
+                    "mdev": 74.9612,
+                    "stddev": 130,
+                    "min": 2622,
+                    "p10": 2622,
+                    "p90": 2919,
+                    "p99": 2919,
+                    "max": 2919
+                },
+                "domInteractiveTime": {
+                    "median": 2671,
+                    "mean": 2737,
+                    "mdev": 74.7901,
+                    "stddev": 130,
+                    "min": 2622,
+                    "p10": 2622,
+                    "p90": 2918,
+                    "p99": 2918,
+                    "max": 2918
+                },
+                "domainLookupTime": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "frontEndTime": {
+                    "median": 1779,
+                    "mean": 1718,
+                    "mdev": 139.909,
+                    "stddev": 242,
+                    "min": 1395,
+                    "p10": 1395,
+                    "p90": 1979,
+                    "p99": 1979,
+                    "max": 1979
+                },
+                "pageDownloadTime": {
+                    "median": 1318,
+                    "mean": 1332,
+                    "mdev": 35.1389,
+                    "stddev": 61,
+                    "min": 1266,
+                    "p10": 1266,
+                    "p90": 1413,
+                    "p99": 1413,
+                    "max": 1413
+                },
+                "pageLoadTime": {
+                    "median": 3214,
+                    "mean": 3173,
+                    "mdev": 95.7315,
+                    "stddev": 166,
+                    "min": 2953,
+                    "p10": 2953,
+                    "p90": 3353,
+                    "p99": 3353,
+                    "max": 3353
+                },
+                "redirectionTime": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "serverConnectionTime": {
+                    "median": 65,
+                    "mean": 66,
+                    "mdev": 0.9813,
+                    "stddev": 2,
+                    "min": 64,
+                    "p10": 64,
+                    "p90": 68,
+                    "p99": 68,
+                    "max": 68
+                },
+                "serverResponseTime": {
+                    "median": 1348,
+                    "mean": 1363,
+                    "mdev": 35.1852,
+                    "stddev": 61,
+                    "min": 1297,
+                    "p10": 1297,
+                    "p90": 1444,
+                    "p99": 1444,
+                    "max": 1444
+                }
+            },
+            "paintTiming": {
+                "first-contentful-paint": {
+                    "median": 971,
+                    "mean": 874,
+                    "mdev": 127.9491,
+                    "stddev": 222,
+                    "min": 567,
+                    "p10": 567,
+                    "p90": 1083,
+                    "p99": 1083,
+                    "max": 1083
+                },
+                "first-paint": {
+                    "median": 971,
+                    "mean": 874,
+                    "mdev": 127.9491,
+                    "stddev": 222,
+                    "min": 567,
+                    "p10": 567,
+                    "p90": 1083,
+                    "p99": 1083,
+                    "max": 1083
+                }
+            },
+            "rumSpeedIndex": {
+                "median": 971,
+                "mean": 874,
+                "mdev": 127.9491,
+                "stddev": 222,
+                "min": 567,
+                "p10": 567,
+                "p90": 1083,
+                "p99": 1083,
+                "max": 1083
+            },
+            "serverTimings": [{
+                "duration": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                }
+            }],
+            "userTimings": {
+                "marks": {
+                    "mwStartup": {
+                        "median": 1057,
+                        "mean": 987,
+                        "mdev": 103.5468,
+                        "stddev": 179,
+                        "min": 740,
+                        "p10": 740,
+                        "p90": 1162,
+                        "p99": 1162,
+                        "max": 1162
+                    }
+                }
+            },
+            "fullyLoaded": {
+                "median": 3653,
+                "mean": 3681,
+                "mdev": 47.8326,
+                "stddev": 83,
+                "min": 3596,
+                "p10": 3596,
+                "p90": 3794,
+                "p99": 3794,
+                "max": 3794
+            }
+        },
+        "visualMetrics": {
+            "SpeedIndex": {
+                "median": 1079,
+                "mean": 1004,
+                "mdev": 124.4698,
+                "stddev": 216,
+                "min": 711,
+                "p10": 711,
+                "p90": 1223,
+                "p99": 1223,
+                "max": 1223
+            },
+            "FirstVisualChange": {
+                "median": 967,
+                "mean": 900,
+                "mdev": 144.0165,
+                "stddev": 249,
+                "min": 567,
+                "p10": 567,
+                "p90": 1167,
+                "p99": 1167,
+                "max": 1167
+            },
+            "LastVisualChange": {
+                "median": 2500,
+                "mean": 2578,
+                "mdev": 152.5315,
+                "stddev": 264,
+                "min": 2300,
+                "p10": 2300,
+                "p90": 2933,
+                "p99": 2933,
+                "max": 2933
+            },
+            "PerceptualSpeedIndex": {
+                "median": 1138,
+                "mean": 1069,
+                "mdev": 114.2719,
+                "stddev": 198,
+                "min": 800,
+                "p10": 800,
+                "p90": 1270,
+                "p99": 1270,
+                "max": 1270
+            },
+            "VisualReadiness": {
+                "median": 1533,
+                "mean": 1677,
+                "mdev": 296.5342,
+                "stddev": 514,
+                "min": 1133,
+                "p10": 1133,
+                "p90": 2366,
+                "p99": 2366,
+                "max": 2366
+            },
+            "VisualComplete85": {
+                "median": 1167,
+                "mean": 1078,
+                "mdev": 115.9147,
+                "stddev": 201,
+                "min": 800,
+                "p10": 800,
+                "p90": 1267,
+                "p99": 1267,
+                "max": 1267
+            },
+            "VisualComplete95": {
+                "median": 1167,
+                "mean": 1078,
+                "mdev": 115.9147,
+                "stddev": 201,
+                "min": 800,
+                "p10": 800,
+                "p90": 1267,
+                "p99": 1267,
+                "max": 1267
+            },
+            "VisualComplete99": {
+                "median": 2500,
+                "mean": 2567,
+                "mdev": 144.0165,
+                "stddev": 249,
+                "min": 2300,
+                "p10": 2300,
+                "p90": 2900,
+                "p99": 2900,
+                "max": 2900
+            }
+        },
+        "cpu": {
+            "categories": {
+                "Scripting": {
+                    "median": 1504,
+                    "mean": 1535,
+                    "mdev": 27.8273,
+                    "stddev": 48,
+                    "min": 1498,
+                    "p10": 1498,
+                    "p90": 1603,
+                    "p99": 1603,
+                    "max": 1603
+                },
+                "Loading": {
+                    "median": 190,
+                    "mean": 194,
+                    "mdev": 5.6699,
+                    "stddev": 10,
+                    "min": 184,
+                    "p10": 184,
+                    "p90": 207,
+                    "p99": 207,
+                    "max": 207
+                },
+                "Rendering": {
+                    "median": 1675,
+                    "mean": 1655,
+                    "mdev": 27.0862,
+                    "stddev": 47,
+                    "min": 1590,
+                    "p10": 1590,
+                    "p90": 1700,
+                    "p99": 1700,
+                    "max": 1700
+                },
+                "Painting": {
+                    "median": 81,
+                    "mean": 92,
+                    "mdev": 11.0962,
+                    "stddev": 19,
+                    "min": 75,
+                    "p10": 75,
+                    "p90": 119,
+                    "p99": 119,
+                    "max": 119
+                },
+                "Other": {
+                    "median": 1,
+                    "mean": 1,
+                    "mdev": 0.0598,
+                    "stddev": 0,
+                    "min": 1,
+                    "p10": 1,
+                    "p90": 1,
+                    "p99": 1,
+                    "max": 1
+                }
+            },
+            "events": {
+                "EventDispatch": {
+                    "median": 6,
+                    "mean": 6,
+                    "mdev": 0.7699,
+                    "stddev": 1,
+                    "min": 5,
+                    "p10": 5,
+                    "p90": 8,
+                    "p99": 8,
+                    "max": 8
+                },
+                "ParseHTML": {
+                    "median": 183,
+                    "mean": 187,
+                    "mdev": 3.5016,
+                    "stddev": 6,
+                    "min": 182,
+                    "p10": 182,
+                    "p90": 195,
+                    "p99": 195,
+                    "max": 195
+                },
+                "UpdateLayoutTree": {
+                    "median": 573,
+                    "mean": 563,
+                    "mdev": 13.2747,
+                    "stddev": 23,
+                    "min": 532,
+                    "p10": 532,
+                    "p90": 586,
+                    "p99": 586,
+                    "max": 586
+                },
+                "Layout": {
+                    "median": 873,
+                    "mean": 857,
+                    "mdev": 28.3985,
+                    "stddev": 49,
+                    "min": 791,
+                    "p10": 791,
+                    "p90": 908,
+                    "p99": 908,
+                    "max": 908
+                },
+                "EvaluateScript": {
+                    "median": 723,
+                    "mean": 737,
+                    "mdev": 33.8419,
+                    "stddev": 59,
+                    "min": 673,
+                    "p10": 673,
+                    "p90": 815,
+                    "p99": 815,
+                    "max": 815
+                },
+                "v8.compile": {
+                    "median": 17,
+                    "mean": 15,
+                    "mdev": 1.0238,
+                    "stddev": 2,
+                    "min": 13,
+                    "p10": 13,
+                    "p90": 17,
+                    "p99": 17,
+                    "max": 17
+                },
+                "UpdateLayerTree": {
+                    "median": 223,
+                    "mean": 231,
+                    "mdev": 10.8079,
+                    "stddev": 19,
+                    "min": 213,
+                    "p10": 213,
+                    "p90": 257,
+                    "p99": 257,
+                    "max": 257
+                },
+                "HitTest": {
+                    "median": 3,
+                    "mean": 3,
+                    "mdev": 0.0423,
+                    "stddev": 0,
+                    "min": 3,
+                    "p10": 3,
+                    "p90": 4,
+                    "p99": 4,
+                    "max": 4
+                },
+                "ParseAuthorStyleSheet": {
+                    "median": 6,
+                    "mean": 7,
+                    "mdev": 2.2583,
+                    "stddev": 4,
+                    "min": 2,
+                    "p10": 2,
+                    "p90": 12,
+                    "p99": 12,
+                    "max": 12
+                },
+                "ResourceChangePriority": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0.0122,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "Paint": {
+                    "median": 57,
+                    "mean": 57,
+                    "mdev": 4.5083,
+                    "stddev": 8,
+                    "min": 47,
+                    "p10": 47,
+                    "p90": 66,
+                    "p99": 66,
+                    "max": 66
+                },
+                "CompositeLayers": {
+                    "median": 28,
+                    "mean": 35,
+                    "mdev": 7.0952,
+                    "stddev": 12,
+                    "min": 24,
+                    "p10": 24,
+                    "p90": 52,
+                    "p99": 52,
+                    "max": 52
+                },
+                "MinorGC": {
+                    "median": 42,
+                    "mean": 42,
+                    "mdev": 4.4748,
+                    "stddev": 8,
+                    "min": 32,
+                    "p10": 32,
+                    "p90": 51,
+                    "p99": 51,
+                    "max": 51
+                },
+                "FireIdleCallback": {
+                    "median": 4,
+                    "mean": 5,
+                    "mdev": 1.1941,
+                    "stddev": 2,
+                    "min": 2,
+                    "p10": 2,
+                    "p90": 7,
+                    "p99": 7,
+                    "max": 7
+                },
+                "FunctionCall": {
+                    "median": 616,
+                    "mean": 619,
+                    "mdev": 19.8061,
+                    "stddev": 34,
+                    "min": 579,
+                    "p10": 579,
+                    "p90": 663,
+                    "p99": 663,
+                    "max": 663
+                },
+                "BlinkGC.AtomicPhase": {
+                    "median": 79,
+                    "mean": 83,
+                    "mdev": 10.1999,
+                    "stddev": 18,
+                    "min": 64,
+                    "p10": 64,
+                    "p90": 107,
+                    "p99": 107,
+                    "max": 107
+                },
+                "FireAnimationFrame": {
+                    "median": 1,
+                    "mean": 1,
+                    "mdev": 0.0963,
+                    "stddev": 0,
+                    "min": 1,
+                    "p10": 1,
+                    "p90": 1,
+                    "p99": 1,
+                    "max": 1
+                },
+                "TimerFire": {
+                    "median": 13,
+                    "mean": 13,
+                    "mdev": 1.0432,
+                    "stddev": 2,
+                    "min": 11,
+                    "p10": 11,
+                    "p90": 16,
+                    "p99": 16,
+                    "max": 16
+                },
+                "Decode Image": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0.0667,
+                    "stddev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "MajorGC": {
+                    "median": 15,
+                    "mean": 13,
+                    "mdev": 3.5182,
+                    "stddev": 6,
+                    "min": 5,
+                    "p10": 5,
+                    "p90": 19,
+                    "p99": 19,
+                    "max": 19
+                },
+                "ScriptWrappableMarkingVisitor::performLazyCleanup": {
+                    "median": 1,
+                    "mean": 1,
+                    "mdev": 0.0598,
+                    "stddev": 0,
+                    "min": 1,
+                    "p10": 1,
+                    "p90": 1,
+                    "p99": 1,
+                    "max": 1
+                }
+            }
+        }
+    }
+}]
